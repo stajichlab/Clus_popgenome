@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+use strict;
+use Getopt::Long;
+
+my $bedfile = "A_fumigatus_A1163_features.genes.bed";
+my $covdir = "coverage";
+
+GetOptions('b|bed:s' => \$bedfile,
+	   'c|cov|dir:s' => \$covdir,
+    );
+
+open(my $fh => $bedfile) || die "cannot open $bedfile: $!";
+
+my %chroms;
+while(<$fh>) {
+    my ($chrom,$start,$end,$gene) = split;
+    push @{$chroms{$chrom}}, [$start,$end, $gene];
+}
+
+for my $chrom ( keys %chroms ) {
+    $chroms{$chrom} = [ sort { $a->[0] <=> $b->[0] } @$chroms{$chrom}];

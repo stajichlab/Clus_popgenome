@@ -1,0 +1,3 @@
+library(ggplot2)
+
+chr4 <- read.table("plot/scf_000004_A_fumigatus_A1163.gene_cov_norm.tab",header=T,sep="\t",row.names=1)
