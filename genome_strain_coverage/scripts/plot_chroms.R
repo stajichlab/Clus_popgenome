@@ -17,7 +17,7 @@ for ( i in c(1:8) ) {
     fs_col = 5
 
     pdffile=sprintf("plot/SC_%d.pdf",i)
-    pdf(pdffile,height=80,width=10)
+    pdf(pdffile,height=70,width=5)
     res_t <- pheatmap(chr, fontsize_row = fs_row,
                       fontsize_col = fs_col,
                       cluster_cols = TRUE, cluster_rows = FALSE,
