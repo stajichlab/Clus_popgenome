@@ -12,6 +12,9 @@ while(<>) {
     for my $c ( @row ) {
 	my $strain = $header[$i++];
 	my $group = ($strain =~ /ATCC/) ? $strain : substr($strain,0,1);
+	if( $strain =~ /ctl\d+\.(\S+)/ ) {
+	    $group = substr($1,0,1);
+	}
 	print join("\t", $gene, $c, $strain, $group),"\n";
     }
 }
