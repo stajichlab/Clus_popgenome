@@ -66,7 +66,10 @@ for my $file ( readdir(DIR) ) {
 
 my @strains_final = sort keys %depths;
 open(my $ofh => ">$odir/coverage_by_gene_aggregate.norm.ggplot.tab") || die $!;
-print $ofh join("\t", qw(WINDOW CHROM CHROM_WINDOW STRAIN STRAIN_GROUP MEAN_COVERAGE MEDIAN_COVERAGE GENE_COUNT)),"\n";
+
+print $ofh join("\t", qw(WINDOW CHROM CHROM_WINDOW STRAIN STRAIN_GROUP
+LOCALE MEAN_COVERAGE MEDIAN_COVERAGE GENE_COUNT)),"\n";
+
 my $windows = 1;
 for my $chrom (sort keys %chroms ) {
    
@@ -78,19 +81,24 @@ for my $chrom (sort keys %chroms ) {
 	my @genenames = map { $_->[2] } @genes;
 	for my $strain ( @strains_final ) {
 	    my $strain_group;
+	    my ($subgroup,$id) = split(/\./,$strain);
 	    if( $strain =~ /^([ABC])\d+\./ ) {
 		$strain_group = $1;
 	    } elsif( $strain =~ /ATCC/) {
 		$strain_group = 'REF';
 	    }
 	    next if $strain =~ /P$/ || $strain =~ /^ctl/;
+	    my $locale = 'UNK';
+	    if ( $strain_group eq 'A' ) { 
+		$locale = substr($id,0,1);
+	    }
 	    my @covs = map { #warn("cov of $_ for $strain is ",
 			#	  $genecov{$_}->{$strain},"\n");
 			     $genecov{$_}->{$strain} / $depths{$strain} 
 	    } @genenames;
 	    my $stats = Statistics::Descriptive::Full->new();
 	    $stats->add_data(\@covs);
-	    print $ofh join("\t", $windows, $chrom, $i, $strain, $strain_group,
+	    print $ofh join("\t", $windows, $chrom, $i, $strain, $strain_group,$locale,
 			    sprintf("%.2f",$stats->mean),
 			    sprintf("%.2f",$stats->median),
 			    scalar @genenames),"\n";

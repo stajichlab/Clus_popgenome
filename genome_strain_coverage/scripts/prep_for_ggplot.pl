@@ -4,7 +4,7 @@ use warnings;
 my $header = <>;
 my ($gn,@header) = split(/\s+/,$header);
 
-print join("\t",qw(GENE COVERAGE STRAIN GROUP)), "\n";
+print join("\t",qw(GENE COVERAGE STRAIN LOCALE GROUP)), "\n";
 
 while(<>) {
     my ($gene,@row) = split;
@@ -15,6 +15,13 @@ while(<>) {
 	if( $strain =~ /ctl\d+\.(\S+)/ ) {
 	    $group = substr($1,0,1);
 	}
-	print join("\t", $gene, $c, $strain, $group),"\n";
+	my ($subgroup,$id)  = split(/\./,$strain);
+        my $locale = 'UNK';
+        if ( $subgroup !~ /ATCC/ && $subgroup =~ /^A/ ) {
+         $locale = substr($id,0,1);
+	} elsif( $subgroup =~ /ctl/ && $id =~ /AL1/ ) {
+	  $locale = 'L';
+	}	
+	print join("\t", $gene, $c, $strain, $locale,$group),"\n";
     }
 }
