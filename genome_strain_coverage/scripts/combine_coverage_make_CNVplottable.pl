@@ -11,14 +11,15 @@ my $odir = 'plot_CNV';
 my $ext = ".bamcoverage.tab";
 my $skip_strains = 'skip.tab'; # not used now
 my $min_depth = 2;
-my $gene_window_size = 50;
-GetOptions('b|bed:s' => \$bedfile,
-	   'c|cov|dir:s' => \$covdir,
-	   'o|odir:s'    => \$odir,
-	   'd|depth:s'   => \$strain_depth,
+my $gene_window_size = 20;
+
+GetOptions('b|bed:s'        => \$bedfile,
+	   'c|cov|dir:s'    => \$covdir,
+	   'o|odir:s'       => \$odir,
+	   'd|depth:s'      => \$strain_depth,
 	   'min|mindepth:s' => \$min_depth,
-	   's|skip:s'    => \$skip_strains,
-	   'w|window:s'  => \$gene_window_size,
+	   's|skip:s'       => \$skip_strains,
+	   'w|window:s'     => \$gene_window_size,
     );
 mkdir($odir) unless -d $odir;
 my %depths;
@@ -71,8 +72,7 @@ print $ofh join("\t", qw(WINDOW CHROM CHROM_WINDOW STRAIN STRAIN_GROUP
 LOCALE MEAN_COVERAGE MEDIAN_COVERAGE GENE_COUNT)),"\n";
 
 my $windows = 1;
-for my $chrom (sort keys %chroms ) {
-   
+for my $chrom (sort keys %chroms ) {   
     my @ordered_genes = sort { $a->[0] <=> $b->[0] } @{$chroms{$chrom}};
     my $len = scalar @ordered_genes;
     my $i = 0;
@@ -86,11 +86,47 @@ for my $chrom (sort keys %chroms ) {
 		$strain_group = $1;
 	    } elsif( $strain =~ /ATCC/) {
 		$strain_group = 'REF';
-	    }
-	    next if $strain =~ /P$/ || $strain =~ /^ctl/;
+	    } 
+#	    next if $strain =~ /P$/ || $strain =~ /^ctl/;
 	    my $locale = 'UNK';
-	    if ( $strain_group eq 'A' ) { 
+	    if ( $subgroup =~ /ATCC/ ) {
+		$locale = 'Blood';
+	    } elsif ( $subgroup =~ /^A/ ) {
 		$locale = substr($id,0,1);
+	    } elsif( $subgroup =~ /ctl/ && $id =~ /AL1/ ) {
+		$locale = 'L';
+		$strain_group = 'A';
+	    } elsif ( $subgroup =~ /ctl/ && $id =~ /C9L1/ ) {
+		$locale = 'L';
+		$strain_group = 'C';
+	    } elsif ( $subgroup =~ /^C(\d+)/ ) {
+		my $n = $1;
+		if( $n >= 4 && $n <= 7 ) {
+		    $locale = 'L';
+		} elsif ( $n >= 8 && $n <= 11 ) {
+		    $locale = 'M';
+		} elsif ( $n >= 12 && $n <= 15 ) {
+		    $locale = 'U';
+		} elsif ( $n == 30 ) {
+		    $locale = 'L';
+		} elsif ( $n == 31 ) {
+		    $locale = 'Stock';
+		} else {
+		    warn("unknown group $subgroup\n");
+		}
+	    } elsif ( $subgroup =~ /^B(\d+)/ ) {
+		my $n = $1;
+		if ($n >= 16 && $n <= 21 ) {
+		    $locale = 'L';
+		} elsif( $n >= 22 && $n <= 27 ) {
+		    $locale = 'U';
+		} elsif( $n == 28 ) {
+		    $locale = 'U';
+		} elsif ( $n == 29 ) {
+		    $locale = 'M';
+		} else {
+		    warn("unknown group $subgroup\n");
+		}
 	    }
 	    my @covs = map { #warn("cov of $_ for $strain is ",
 			#	  $genecov{$_}->{$strain},"\n");
@@ -98,7 +134,7 @@ for my $chrom (sort keys %chroms ) {
 	    } @genenames;
 	    my $stats = Statistics::Descriptive::Full->new();
 	    $stats->add_data(\@covs);
-	    print $ofh join("\t", $windows, $chrom, $i, $strain, $strain_group,$locale,
+	    print $ofh join("\t", $windows, $chrom, $i, $strain, $strain_group, $locale,
 			    sprintf("%.2f",$stats->mean),
 			    sprintf("%.2f",$stats->median),
 			    scalar @genenames),"\n";

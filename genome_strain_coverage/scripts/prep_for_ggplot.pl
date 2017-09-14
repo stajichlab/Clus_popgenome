@@ -17,11 +17,43 @@ while(<>) {
 	}
 	my ($subgroup,$id)  = split(/\./,$strain);
         my $locale = 'UNK';
-        if ( $subgroup !~ /ATCC/ && $subgroup =~ /^A/ ) {
+        if ( $subgroup =~ /ATCC/ ) {
+	    $locale = 'Blood';
+	} elsif ( $subgroup =~ /^A/ ) {
          $locale = substr($id,0,1);
 	} elsif( $subgroup =~ /ctl/ && $id =~ /AL1/ ) {
 	  $locale = 'L';
-	}	
+	} elsif ( $subgroup =~ /ctl/ && $id =~ /C9L1/ ) {
+	    $locale = 'L';
+	} elsif ( $subgroup =~ /^C(\d+)/ ) {
+	    my $n = $1;
+	    if( $n >= 4 && $n <= 7 ) {
+		$locale = 'L';
+	    } elsif ( $n >= 8 && $n <= 11 ) {
+		$locale = 'M';
+	    } elsif ( $n >= 12 && $n <= 15 ) {
+		$locale = 'U';
+	    } elsif ( $n == 30 ) {
+		$locale = 'L';
+	    } elsif ( $n == 31 ) {
+		$locale = 'Stock';
+	    } else {
+		warn("unknown group $subgroup\n");
+	    }
+	} elsif ( $subgroup =~ /^B(\d+)/ ) {
+	    my $n = $1;
+	    if ($n >= 16 && $n <= 21 ) {
+		$locale = 'L';
+	    } elsif( $n >= 22 && $n <= 27 ) {
+		$locale = 'U';
+	    } elsif( $n == 28 ) {
+		$locale = 'U';
+	    } elsif ( $n == 29 ) {
+		$locale = 'M';
+	    } else {
+		warn("unknown group $subgroup\n");
+	    }
+	}
 	print join("\t", $gene, $c, $strain, $locale,$group),"\n";
     }
 }

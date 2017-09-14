@@ -2,11 +2,11 @@ library(ggplot2)
 
 covtable <- read.table("plot_CNV/coverage_by_gene_aggregate.norm.ggplot.tab",sep="\t",header=T)
 #covtable <- subset(covtable,covtable$GENE_COUNT > 20)
-covtable = subset(covtable,covtable$STRAIN_GROUP == "A")
+covtable = subset(covtable,covtable$STRAIN_GROUP == "C")
 #summary(covtable)
 Title="Genome wide normalized coverage plot"
 
-pdffile="plot_CNV/genomewide_CNV_Astrains_all.pdf"
+pdffile="plot_CNV/genomewide_CNV_Bstrains.pdf"
 
 p<- ggplot(covtable,
        aes(x=WINDOW,y=MEDIAN_COVERAGE,color=CHROM)) +
@@ -25,17 +25,17 @@ for ( i in c(1:8) ) {
         labs(title=ctgTitle,xlab="20 Gene window") +
         scale_shape(solid=F) + geom_point(alpha=1,size=3) 
 #+ scale_colour_brewer(palette = "Paired") 
-   pdffile = sprintf("plot_CNV/genomewide_CNV_Astrains_SC%d.pdf",i) 
+   pdffile = sprintf("plot_CNV/genomewide_CNV_Cstrains_SC%d.pdf",i) 
    ggsave(pdffile,plot=p,width=10)        
 
-   for ( j in c("L", "S", "U") ) {
+   for ( j in c("L", "M", "U") ) {
     covLoc = subset(covtable_ctg,covtable_ctg$LOCALE == j)
     ctgTitle <- sprintf("SC%d %s - %s strains",i,Title,j)
     p <- ggplot(covLoc,
    aes(x=CHROM_WINDOW,y=MEDIAN_COVERAGE,shape=LOCALE,color=STRAIN)) +
    labs(title=ctgTitle,xlab="20 Gene window") +
    scale_shape(solid=T) + geom_point(alpha=1,size=3) + scale_colour_brewer(palette = "Paired")
-   pdffile = sprintf("plot_CNV/genomewide_CNV_Astrains_SC%d_%s.pdf",i,j)
+   pdffile = sprintf("plot_CNV/genomewide_CNV_Cstrains_SC%d_%s.pdf",i,j)
    ggsave(pdffile,plot=p,width=10)
    }
 }
