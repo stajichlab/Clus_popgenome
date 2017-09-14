@@ -21,7 +21,7 @@ for ( i in c(1:8) ) {
     scale_fill_identity(guide = "legend") + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
     ggsave(pdffile,g,width=12,height=5)
 
-   for ( j in c("L", "U") ) {
+   for ( j in c("L", "M", "U") ) {
     covLoc = subset(covA,covA$LOCALE == j)
     ctgTitle <- sprintf("SC%d %s - %s strains",i,Title,j)
     p <- ggplot(covLoc,

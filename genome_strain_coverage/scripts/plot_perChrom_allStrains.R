@@ -19,15 +19,16 @@ for ( i in c(1:8) ) {
     ggsave(pdffile,g,width=12,height=8)
 
     for ( j in c("L", "M","S","U") ) {
-    covLoc = subset(cov,cov$LOCALE == j)
-    ctgTitle <- sprintf("SC%d %s - %s strains",i,Title,j)
-    p <- ggplot(covLoc,
-   aes(x=GENENUM,y=COVERAGE,color=STRAIN,shape=GROUP)) +
-   labs(title=ctgTitle, xlab="CLUG Locus") + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
-   scale_shape(solid=T) + geom_point(alpha=0.9,size=1.5) + scale_colour_brewer(palette = "Paired") 
+        covLoc = subset(cov,cov$LOCALE == j)
+        ctgTitle <- sprintf("SC%d %s - %s strains",i,Title,j)
+        p <- ggplot(covLoc,
+                    aes(x=GENENUM,y=COVERAGE,color=STRAIN,shape=GROUP)) +
+            labs(title=ctgTitle, xlab="CLUG Locus") + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+            scale_shape(solid=T) + geom_point(alpha=0.9,size=1.5)
+                                        #+ scale_colour_brewer(palette = "Paired") 
    
-   pdffile = sprintf("plot/SC_%d_all_strains_%s.pdf",i,j)
-   ggsave(pdffile,plot=p,width=10)
+        pdffile = sprintf("plot/SC_%d_all_strains_%s.pdf",i,j)
+        ggsave(pdffile,plot=p,width=10)
    }
 }
 
