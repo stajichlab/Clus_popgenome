@@ -22,3 +22,5 @@ vcftools --vcf A_pools.vcf --out filtered/A_pools.select.SNPONLY --remove-indels
 vcftools --vcf A_pools.vcf --out filtered/A_pools.select.INDELONLY --keep-only-indels  --remove-filtered-all  --recode --recode-INFO-all
 vcftools --vcf A_pools.vcf --out filtered/A_pools.select.SNPONLY_BIALLELIC  --remove-indels --remove-filtered-all --min-alleles 2 --max-alleles 2  --recode --recode-INFO-all
 
+vcftools --vcf A_pools.vcf --out filtered/A_pools.nofilter.SNPONLY --remove-indels --min-alleles 2 --max-alleles 2  --recode --recode-INFO-all
+
