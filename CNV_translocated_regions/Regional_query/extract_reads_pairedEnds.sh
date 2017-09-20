@@ -13,6 +13,6 @@ do
  STRAIN=$(basename $BAM .realign.bam)
  while read CHR START END TYPE
  do
-  samtools view -b -h -o $OUTDIR/$STRAIN.$TYPE.bam $BAM $CHR:$START-$END
+  samtools view -h -o $OUTDIR/$STRAIN.$TYPE.sam $BAM $CHR:$START-$END
  done < $REGIONS
 done
