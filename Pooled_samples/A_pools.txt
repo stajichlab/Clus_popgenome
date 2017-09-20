@@ -1,0 +1,3 @@
+bam/A22.UpperP.realign.bam
+bam/A23.LowerP.realign.bam
+bam/A24.SputuP.realign.bam
