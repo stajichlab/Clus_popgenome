@@ -47,7 +47,7 @@ while(<>) {
     }
     $bases++;
 }
-print join("\t", qw(#STRAIN BASECT READCT AVG_COVERAGE)),"\n";
+print join("\t", '#STRAIN',qw(BASECT READCT AVG_COVERAGE)),"\n";
 for my $strain ( sort keys %suminfo ) {
     print join("\t", $strain, $bases, $suminfo{$strain}, sprintf("%.2f",$suminfo{$strain} / $bases)), "\n";
 }

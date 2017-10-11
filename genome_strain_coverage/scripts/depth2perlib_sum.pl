@@ -58,5 +58,5 @@ while(<>) {
     }
     $bases++;
 }
-print join("\t", qw(#GENE LENGTH), sort keys %suminfo), "\n";
+print join("\t", '#GENE',qw(LENGTH), sort keys %suminfo), "\n";
 print join("\t", $gene, $bases, map { sprintf("%.2f",$suminfo{$_} / $bases) } sort keys %suminfo),"\n";

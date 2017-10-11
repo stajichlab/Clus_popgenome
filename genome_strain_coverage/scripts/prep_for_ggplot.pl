@@ -4,10 +4,10 @@ use warnings;
 my $header = <>;
 my ($gn,@header) = split(/\s+/,$header);
 
-print join("\t",qw(GENE COVERAGE STRAIN LOCALE GROUP)), "\n";
+print join("\t",qw(GENE POSITION COVERAGE STRAIN LOCALE GROUP)), "\n";
 
 while(<>) {
-    my ($gene,@row) = split;
+    my ($gene,$pos,@row) = split;
     my $i = 0;
     for my $c ( @row ) {
 	my $strain = $header[$i++];
@@ -36,7 +36,7 @@ while(<>) {
 	    } elsif ( $n == 30 ) {
 		$locale = 'L';
 	    } elsif ( $n == 31 ) {
-		$locale = 'Stock';
+		$locale = 'U';
 	    } else {
 		warn("unknown group $subgroup\n");
 	    }
@@ -54,6 +54,6 @@ while(<>) {
 		warn("unknown group $subgroup\n");
 	    }
 	}
-	print join("\t", $gene, $c, $strain, $locale,$group),"\n";
+	print join("\t", $gene, $pos, $c, $strain, $locale,$group),"\n";
     }
 }

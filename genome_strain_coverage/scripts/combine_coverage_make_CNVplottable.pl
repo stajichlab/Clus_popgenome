@@ -6,7 +6,7 @@ use Statistics::Descriptive;
 
 my $bedfile = "Candida_lusitaniae.genes.bed";
 my $covdir = "coverage";
-my $strain_depth = 'depth/strain.depths.tab.2';
+my $strain_depth = 'depth/strain.depths.tab';
 my $odir = 'plot_CNV';
 my $ext = ".bamcoverage.tab";
 my $skip_strains = 'skip.tab'; # not used now
