@@ -1,9 +1,7 @@
 #!/usr/bin/bash
-#SBATCH --nodes 1
-#SBATCH --ntasks 1
-#SBATCH --mem 4G
-#SBATCH --job-name=vcftools.filter
-#SBATCH --output=vcftools.filter.log
+#SBATCH --nodes 1 --ntasks 2 --time 2:00:00 -p short --mem 4G
+#SBATCH --job-name=vcf
+#SBATCH --output=vcf.filter.log
 
 module load vcftools
 OUTDIR=filtered
@@ -18,9 +16,11 @@ SNPONLY=$OUTDIR/$base.selected.SNPONLY.vcf
 INDELONLY=$OUTDIR/$base.selected.INDELONLY.vcf
 
 
-vcftools --vcf A_pools.vcf --out filtered/A_pools.select.SNPONLY --remove-indels --remove-filtered-all  --recode --recode-INFO-all
-vcftools --vcf A_pools.vcf --out filtered/A_pools.select.INDELONLY --keep-only-indels  --remove-filtered-all  --recode --recode-INFO-all
-vcftools --vcf A_pools.vcf --out filtered/A_pools.select.SNPONLY_BIALLELIC  --remove-indels --remove-filtered-all --min-alleles 2 --max-alleles 2  --recode --recode-INFO-all
+#vcftools --vcf A_pools.vcf --out filtered/A_pools.select.SNPONLY --remove-indels --remove-filtered-all  --recode --recode-INFO-all
+#vcftools --vcf A_pools.vcf --out filtered/A_pools.select.INDELONLY --keep-only-indels  --remove-filtered-all  --recode --recode-INFO-all
+#vcftools --vcf A_pools.vcf --out filtered/A_pools.select.SNPONLY_BIALLELIC  --remove-indels --remove-filtered-all --min-alleles 2 --max-alleles 2  --recode --recode-INFO-all
 
-vcftools --vcf A_pools.vcf --out filtered/A_pools.nofilter.SNPONLY --remove-indels --min-alleles 2 --max-alleles 2  --recode --recode-INFO-all
+#vcftools --vcf A_pools.vcf --out filtered/A_pools.nofilter.SNPONLY --remove-indels --min-alleles 2 --max-alleles 2  --recode --recode-INFO-all
+./scripts/removefixed.py A_pools.vcf
+./scripts/removefixed_nofilter.py A_pools.vcf
 

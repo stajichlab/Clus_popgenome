@@ -1,21 +1,36 @@
 #!/usr/bin/bash 
-
+#SBATCH --time 2:00:00 -p short --ntasks 1 --nodes 1
 #SBATCH --mem=8G
 module load snpEff
 
 snpEffConfig=./snpEff/snpEff.config
 GENOME=C_lusitaniae
 DIR=filtered
-INVCF=$DIR/A_pools.select.SNPONLY.recode.vcf
-OUTVCF=$DIR/A_pools.snpEff.vcf
+INVCF=A_pools.SNPONLY.lungonly.vcf
+OUTVCF=$DIR/A_pools.SNPONLY.strict.snpEff.vcf
 
 java -Xmx16g -jar $SNPEFFJAR eff -v -c $snpEffConfig $GENOME $INVCF > $OUTVCF
- mv snpEff_summary.html snpEff_summary.strict.html
-mv snpEff_genes.txt snpEff_genes.strict.txt
+mv snpEff_summary.html $DIR/snpEff_summary.SNP_strict.html
+mv snpEff_genes.txt $DIR/snpEff_genes.SNP_strict.txt
+perl scripts/snpEffTable_Pn_Ps.pl $DIR/snpEff_genes.SNP_strict.txt >  $DIR/snpEff_genes.Pn_Ps.tab
 
-INVCF=$DIR/A_pools.nofilter.SNPONLY.recode.vcf
+INVCF=A_pools.INDELONLY.lungonly.vcf
+OUTVCF=$DIR/A_pools.INDEL.strict.snpEff.vcf
 
-OUTVCF=$DIR/A_pools.nofilter.snpEff.vcf
 java -Xmx16g -jar $SNPEFFJAR eff -v -c $snpEffConfig $GENOME $INVCF > $OUTVCF
-mv snpEff_summary.html snpEff_summary.nofilter.html
-mv snpEff_genes.txt snpEff_genes.nofilter.txt
+mv snpEff_summary.html $DIR/snpEff_summary.INDEL_strict.html
+mv snpEff_genes.txt $DIR/snpEff_genes.INDEL_strict.txt
+
+INVCF=A_pools.SNPONLY.nofilter.lungonly.vcf
+OUTVCF=$DIR/A_pools.SNPONLY.nofilter.lungonly.snpEff.vcf
+java -Xmx16g -jar $SNPEFFJAR eff -v -c $snpEffConfig $GENOME $INVCF > $OUTVCF
+mv snpEff_summary.html $DIR/snpEff_summary.SNP_nofilter.html
+mv snpEff_genes.txt $DIR/snpEff_genes.SNP_nofilter.txt
+
+INVCF=A_pools.INDELONLY.nofilter.lungonly.vcf
+OUTVCF=$DIR/A_pools.INDELONLY.nofilter.lungonly.snpEff.vcf
+java -Xmx16g -jar $SNPEFFJAR eff -v -c $snpEffConfig $GENOME $INVCF > $OUTVCF
+mv snpEff_summary.html $DIR/snpEff_summary.INDEL_nofilter.html
+mv snpEff_genes.txt $DIR/snpEff_genes.INDEL_nofilter.txt
+perl scripts/snpEffTable_Pn_Ps.pl $DIR/snpEff_genes.SNP_nofilter.txt >  $DIR/snpEff_genes.nofilter_Pn_Ps.tab
+
