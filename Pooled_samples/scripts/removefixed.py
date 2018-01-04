@@ -9,11 +9,11 @@ if len(sys.argv) < 2:
 
 
 newfilename = sys.argv[1].strip('vcf')
-newfilelungSNP = newfilename + "SNPONLY.lungonly.vcf"
-newfilefixedSNP = newfilename + "SNPONLY.fixed.vcf"
+newfilelungSNP = newfilename + "SNPONLY.lungonly.3per.vcf"
+newfilefixedSNP = newfilename + "SNPONLY.fixed.3per.vcf"
 
-newfilelungINDEL = newfilename + "INDELONLY.lungonly.vcf"
-newfilefixedINDEL = newfilename + "INDELONLY.fixed.vcf"
+newfilelungINDEL = newfilename + "INDELONLY.lungonly.3per.vcf"
+newfilefixedINDEL = newfilename + "INDELONLY.fixed.3per.vcf"
 
 vcf_reader = vcf.Reader(open(sys.argv[1], 'r'))
 vcf_writer_snp_lung = vcf.Writer(open(newfilelungSNP,'w'),vcf_reader)
@@ -33,15 +33,16 @@ for record in vcf_reader:
                         call = record.genotype(name)
                         data = call.data
                         if data.MLAC > 30:
-                                ref_allele_count += data.ADf[0]
-                                ref_allele_count += data.ADr[0]
+                        	if float(data.ADf[0])/(data.ADf[1]+data.ADf[0]+1) > .03 or float(data.ADr[0])/(data.ADr[1]+data.ADf[0]+1) > .03: # and ((data.ADf[0]+data.ADf[1]) > 100 or (data.ADr[0] + data.ADr[1]) > 100) and  ((data.ADf[0]+data.ADf[1]) < 400 and (data.ADr[0] + data.ADr[1]) <400):
+					ref_allele_count += data.ADf[0]
+                        		ref_allele_count += data.ADr[0]
                                 #print data.ADf
-                                for altct in data.ADf[1:]:
-                                        alt_allele_count += altct
-                                        for altct in data.ADr[1:]:
-                                                alt_allele_count += altct
-                                
-                if ref_allele_count > len(names):
+                        	for altct in data.ADf[1:]:
+                        		alt_allele_count += altct
+                        	for altct in data.ADr[1:]:
+					alt_allele_count += altct
+             
+                if ref_allele_count >0:#>len(names):
                         if record.is_snp:
                                 vcf_writer_snp_lung.write_record(record) 
                         else:

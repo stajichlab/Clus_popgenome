@@ -21,6 +21,6 @@ INDELONLY=$OUTDIR/$base.selected.INDELONLY.vcf
 #vcftools --vcf A_pools.vcf --out filtered/A_pools.select.SNPONLY_BIALLELIC  --remove-indels --remove-filtered-all --min-alleles 2 --max-alleles 2  --recode --recode-INFO-all
 
 #vcftools --vcf A_pools.vcf --out filtered/A_pools.nofilter.SNPONLY --remove-indels --min-alleles 2 --max-alleles 2  --recode --recode-INFO-all
-./scripts/removefixed.py A_pools.vcf
-./scripts/removefixed_nofilter.py A_pools.vcf
+./scripts/removefixed.py A_pools.down20x.vcf
+./scripts/removefixed_nofilter.py A_pools.down20x.vcf
 

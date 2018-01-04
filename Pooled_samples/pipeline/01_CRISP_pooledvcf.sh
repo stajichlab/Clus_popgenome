@@ -4,4 +4,4 @@
 
 module load CRISP
 
-CRISP --bams A_pools.txt --ref genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT.fasta -p 68 --VCF A_pools.vcf > CRISP.log
+CRISP --bams A_pools.down20x.txt --ref genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT.fasta -p 68 --VCF A_pools.down20x.vcf > CRISP.log
