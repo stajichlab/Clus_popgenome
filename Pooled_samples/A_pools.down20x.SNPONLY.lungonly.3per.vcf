@@ -1,0 +1,36 @@
+##fileformat=VCFv4.0
+##fileDate=Wed Nov  8 11:42:47 2017
+##source=CRISP_V0.1
+##reference=genome/candida_lusitaniae_ATCC42720_w_CBS_6936_MT.fasta
+##options: poolsize=68,bamfiles=3,qvoffset=33,bedfile=None,min_base_quality=13
+##INFO=<ID=NP,Number=1,Type=Integer,Description="Number of Pools With Data">
+##INFO=<ID=DP,Number=2,Type=Integer,Description="Total number of reads (+strand,-strand) across all pools (filtered reads only)">
+##INFO=<ID=CT,Number=.,Type=Float,Description="contingency table p-value for each variant allele in same order as listed in column 5">
+##INFO=<ID=VP,Number=.,Type=Integer,Description="Number of Pools with variant allele(s)">
+##INFO=<ID=HP,Number=.,Type=Integer,Description="Ambiguity in positioning of indel (homopolymer run length or microsatellite length)">
+##INFO=<ID=MQ,Number=.,Type=Integer,Description="# of reads with mapping qualities 0-9,10-19,20-39,40-255">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=MLAC,Number=.,Type=Integer,Description="Maximum likelihood estimate for the allele counts for the ALT allele(s), in the same order as listed in column 5">
+##FORMAT=<ID=AF,Number=.,Type=Float,Description="variant allele frequency in pool, one value for each variant allele listed in column 5">
+##FORMAT=<ID=ADf,Number=.,Type=Integer,Description="Number of reads aligned to the forward strand of the genome supporting reference allele and the alternate alleles in the order listed">
+##FORMAT=<ID=ADr,Number=.,Type=Integer,Description="Number of reads aligned to the reverse strand of the genome supporting reference allele and the alternate alleles in the order listed">
+##FORMAT=<ID=ADb,Number=.,Type=Integer,Description="Number of overlapping paired-end reads (read from both strands) supporting reference allele and the alternate alleles in the order listed">
+##FILTER=<ID=StrandBias,Description="strand bias in distribution of reads between reference and variant alleles on two strands">
+##FILTER=<ID=LowDepth,Description="low average coverage: less than 1 (filtered) read per haplotype across all samples ">
+##FILTER=<ID=LowMQ20,Description=" >20 percent of reads have mapping quality score less than 20">
+##FILTER=<ID=LowMQ10,Description=" >10 percent of reads have mapping quality score less than 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	A22	A23	A24
+Supercontig_1.3	16509	.	T	C	12309	PASS	NP=3;DP=722,263,103;CT=-10.2;VP=3;AC=77;AF=0.37974;EMstats=1230.92:-438.60;FLANKSEQ=ggaaaaatat:T:ttggggtaca;HWEstats=-0.0;MQS=40,15,63,4589;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	19:1:1590:183,61:62,27:32,10	32:1:2351:197,173:60,70:25,23	26:0:766:65,43:26,18:10,3
+Supercontig_1.3	16512	.	G	C	12357	PASS	NP=3;DP=733,278,112;CT=-8.9;VP=3;AC=78;AF=0.38217;EMstats=1235.73:-403.24;FLANKSEQ=aaaatatttt:G:gggtacaaaa;HWEstats=-0.0;MQS=29,15,55,4576;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	19:0:1575:184,66:65,29:35,10	32:0:2342:201,177:71,70:28,23	27:0:758:61,44:25,18:12,4
+Supercontig_1.3	1863771	.	A	T	38940	PASS	NP=3;DP=1081,868,817;CT=-12.0;VP=3;AC=102;AF=0.49493;EMstats=3894.07:-2379.42;FLANKSEQ=gtctgagctg:A:agaagccgcc;HWEstats=-0.0;MQS=46,41,145,3227;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	40:1:1214:157,208:140,179:103,185	31:1:1716:294,254:232,180:231,186	31:0:529:91,77:85,52:56,56
+Supercontig_1.3	1863798	.	G	A	22433	PASS	NP=3;DP=842,886,646;CT=-9.9;VP=3;AC=79;AF=0.38494;EMstats=2243.35:-1266.32;FLANKSEQ=tgactgtctc:G:ccgggcgaag;HWEstats=-0.0;MQS=50,50,153,2916;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	32:1:1076:132,133:160,147:125,102	23:2:1618:292,156:288,147:226,114	24:0:475:77,52:95,49:59,20
+Supercontig_1.3	1863976	.	T	C	40801	PASS	NP=3;DP=481,1073,750;CT=-9.6;VP=3;AC=121;AF=0.59131;EMstats=4080.16:-2050.35;FLANKSEQ=ttacgcctga:T:gaccgcttca;HWEstats=-0.0;MQS=82,47,372,2952;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	46:1:1207:74,104:110,261:79,185	37:2:1730:111,115:235,319:175,177	38:1:516:30,47:69,79:62,72
+MT_CBS_6936	3214	.	T	A	3223	PASS	NP=3;DP=1330,1259,4;CT=-0.4;VP=1;AC=115;AF=0.55838;EMstats=322.40:-154.90;FLANKSEQ=tatatataaa:T:atatatatcc;HWEstats=-0.0;MQS=1,2,29,9465;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	38:0:2686:371,19:335,17:3,0	40:0:5183:676,36:670,40:0,1	37:0:1628:212,16:188,9:0,0
+MT_CBS_6936	7425	.	C	T	2760	PASS	NP=3;DP=624,791,3;CT=-1.4;VP=0;AC=201;AF=0.98129;EMstats=276.01:-64.84;FLANKSEQ=tatatttaat:C:ccatcctttg;HWEstats=-0.0;MQS=0,56,208,1248;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	68:1:441:177,7:196,27:0,0	66:1:819:332,9:398,37:0,2	67:0:252:97,2:124,9:0,1
+MT_CBS_6936	7464	.	A	C	2267	PASS	NP=3;DP=671,755,0;CT=-0.3;VP=1;AC=178;AF=0.87134;EMstats=226.79:-42.95;FLANKSEQ=cttcctttgg:A:agatatattt;HWEstats=-0.0;MQS=13,57,196,1279;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr	59:0:447:178,18:202,5	59:0:837:333,34:408,13	60:0:261:98,10:125,2
+MT_CBS_6936	19107	.	A	T	61240	PASS	NP=3;DP=1135,1089,55;CT=-0.6;VP=3;AC=204;AF=1.0;EMstats=6124.10:-3033.14;FLANKSEQ=tatatcttcc:A:aaggaagata;HWEstats=-0.0;MQS=11,2,29,5080;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	68:54:1329:62,230:65,229:0,19	68:80:2830:159,465:137,478:0,27	68:61:963:49,170:38,142:0,9
+MT_CBS_6936	19108	.	A	T	58655	PASS	NP=3;DP=1130,1076,55;CT=-0.7;VP=3;AC=203;AF=0.99617;EMstats=5865.53:-2828.41;FLANKSEQ=atatcttcca:A:aggaagatat;HWEstats=-0.0;MQS=11,2,30,5079;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	67:5:1329:64,231:65,226:0,19	68:41:2829:161,457:137,467:0,27	68:24:964:50,167:38,143:0,9
+MT_CBS_6936	19109	.	A	T	55932	PASS	NP=3;DP=1174,1048,55;CT=-0.7;VP=3;AC=204;AF=0.99999;EMstats=5593.23:-2368.47;FLANKSEQ=tatcttccaa:A:ggaagatata;HWEstats=-0.0;MQS=11,2,31,5161;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	68:31:1353:63,241:66,216:0,19	68:72:2874:159,485:141,448:0,27	68:53:978:49,177:39,138:0,9
+MT_CBS_6936	21676	.	C	G	1045	PASS	NP=3;DP=2358,2587,4;CT=-0.3;VP=2;AC=137;AF=0.67006;EMstats=104.53:-23.67;FLANKSEQ=atcgcccccc:C:ttcggggggg;HWEstats=-0.0;MQS=3,1,0,8474;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr:ADb	45:0:2411:670,2:721,10:0,0	45:0:4636:1309,7:1414,15:1,2	47:0:1431:369,1:423,4:0,1
+MT_CBS_6936	24067	.	T	A	965	PASS	NP=3;DP=1713,1628,1;CT=-0.3;VP=0;AC=178;AF=0.86662;EMstats=96.53:-12.62;FLANKSEQ=tattcatctt:T:caaggaaaga;HWEstats=-0.0;MQS=1,6,47,3513;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr	60:0:988:480,3:437,8	59:0:1989:947,5:897,17	59:0:590:277,1:265,4
+MT_CBS_6936	24099	.	G	A	1279	PASS	NP=3;DP=1719,1625,0;CT=-0.1;VP=0;AC=204;AF=0.99998;EMstats=127.97:-51.70;FLANKSEQ=cataggtggc:G:ttcatcttat;HWEstats=-0.0;MQS=1,5,40,3499;VF=EMpass;VT=SNV	MLAC:GQ:DP:ADf:ADr	68:30:983:478,10:439,4	68:31:1974:940,15:898,12	68:30:588:273,3:268,4
