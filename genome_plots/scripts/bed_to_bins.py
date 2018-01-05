@@ -29,7 +29,8 @@ bedfiles = []
 
 for f in listdir(indir):
     if (os.path.isfile( os.path.join(indir, f)) and 
-        ( f.endswith(".bed") or f.endswith(".vcf"))):
+        ( f.endswith(".bed") or f.endswith(".vcf.gz")
+	or f.endswith(".gff"))):
         bedfiles.append(os.path.join(indir,f))
 
 counter = 0
@@ -61,7 +62,7 @@ tracknames = []
 for bed in sorted(bedfiles):
     (vol,fname) = os.path.split(bed)
     #    fname = "Density_"+re.sub('\.(bed|vcf)','',fname)
-    fname = re.sub('\.(bed|vcf)','',fname)
+    fname = re.sub('\.(bed|vcf\.gz|gff)','',fname)
     print(fname)
     tracknames.append(fname)
     bedtrack = BedTool(bed)
