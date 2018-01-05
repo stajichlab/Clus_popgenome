@@ -18,7 +18,8 @@ if( $srainfo ) {
     open(my $fh => $srainfo) || die $!;
     while(<$fh>) {
 	next if /^\#/;
-	my ($info,$strain) = split;
+	chomp;
+	my ($info,$strain) = split(/[,\t]/,$_);
 	$info2strain{$info} = $strain;
     }
 }
