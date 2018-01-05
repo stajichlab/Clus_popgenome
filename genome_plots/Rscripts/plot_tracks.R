@@ -9,7 +9,7 @@ df <- read.table(infile,header=T,sep="\t")
 
 head(df)
 pdffile= 'plots/Clus_density.pdf'
-pdf(pdffile,width=18,height=6)
+pdf(pdffile,width=18,height=12)
 Title = "Feature density"
 
 ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chr),
