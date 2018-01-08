@@ -7,8 +7,6 @@ library(reshape2)
 infile = 'tracks/alltracks.bin10000.tab'
 df <- read.table(infile,header=T,sep="\t")
 
-head(df)
-
 pdffile= 'plots/Clus_density_10kb.pdf'
 pdf(pdffile,width=12,height=5)
 Title = "Feature density"
@@ -30,7 +28,7 @@ ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chromosome),
 infile = 'tracks/alltracks.bin50000.tab'
 df <- read.table(infile,header=T,sep="\t")
 df$Chromosome <- df$Chr
-head(df)
+
 pdffile= 'plots/Clus_density_50kb.pdf'
 pdf(pdffile,width=12,height=5)
 Title = "Feature density"
@@ -51,7 +49,6 @@ ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chromosome),
 infile = 'tracks/alltracks.bin20000.tab'
 df <- read.table(infile,header=T,sep="\t")
 df$Chromosome <- df$Chr
-head(df)
 
 pdffile= 'plots/Clus_density_20kb.pdf'
 pdf(pdffile,width=12,height=5)

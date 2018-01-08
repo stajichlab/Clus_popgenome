@@ -11,10 +11,9 @@ import argparse
 
 parser = argparse.ArgumentParser(description="Data file for genome plots: binsize and windowsize")
 
-windowsize = 20000
-offset     = windowsize  # non-overlapping window
-parser.add_argument('-w','--window','--windowsize',help='Window size')
-parser.add_argument('-o','--off','--offset',help='Window offset (default is non-overlapping windows)')
+parser.add_argument('-w','--window','--windowsize',help='Window size',default=20000,type=int)
+parser.add_argument('-o','--offset',type=int,
+                    help='Window offset (default is non-overlapping windows)')
 
 args = parser.parse_args()
 
@@ -28,8 +27,12 @@ def flatten(lis):
             new_lis.append(item)
     return new_lis
 
+windowsize = int(args.window)
+offset     = windowsize
+if args.offset:
+    offset = int(args.offset)
 
-print("running with window=%d offset=%d"%(int(windowsize),int(offset)))
+print("running with window=%d offset=%d"%(windowsize,offset))
 
 indir    = "tracks/bed"
 tracks = "tracks/alltracks.bin%d.tab"%(windowsize)
