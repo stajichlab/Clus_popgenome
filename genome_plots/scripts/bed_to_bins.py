@@ -7,6 +7,17 @@ import csv, re
 from pybedtools import BedTool
 from itertools import chain
 
+import argparse
+
+parser = argparse.ArgumentParser(description="Data file for genome plots: binsize and windowsize")
+
+windowsize = 20000
+offset     = windowsize  # non-overlapping window
+parser.add_argument('-w','--window','--windowsize',help='Window size')
+parser.add_argument('-o','--off','--offset',help='Window offset (default is non-overlapping windows)')
+
+args = parser.parse_args()
+
 def flatten(lis):
     """Given a list, possibly nested to any level, return it flattened."""
     new_lis = []
@@ -17,8 +28,8 @@ def flatten(lis):
             new_lis.append(item)
     return new_lis
 
-windowsize = 10000
-offset     = 5000
+
+print("running with window=%d offset=%d"%(int(windowsize),int(offset)))
 
 indir    = "tracks/bed"
 tracks = "tracks/alltracks.bin%d.tab"%(windowsize)
