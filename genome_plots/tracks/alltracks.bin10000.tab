@@ -172,7 +172,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 28	Supercontig_1.1	280000	290000	PopA.INDEL.lungonly_curated	0
 28	Supercontig_1.1	280000	290000	PopA.SNP.lungonly	1
 28	Supercontig_1.1	280000	290000	PopA.SNP.lungonly_curated	1
-28	Supercontig_1.1	280000	290000	repeats	1
+28	Supercontig_1.1	280000	290000	repeats	0
 29	Supercontig_1.1	290000	300000	Genes	8
 29	Supercontig_1.1	290000	300000	PopA.INDEL.lungonly	0
 29	Supercontig_1.1	290000	300000	PopA.INDEL.lungonly_curated	0
@@ -196,7 +196,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 32	Supercontig_1.1	320000	330000	PopA.INDEL.lungonly_curated	0
 32	Supercontig_1.1	320000	330000	PopA.SNP.lungonly	1
 32	Supercontig_1.1	320000	330000	PopA.SNP.lungonly_curated	1
-32	Supercontig_1.1	320000	330000	repeats	1
+32	Supercontig_1.1	320000	330000	repeats	0
 33	Supercontig_1.1	330000	340000	Genes	4
 33	Supercontig_1.1	330000	340000	PopA.INDEL.lungonly	0
 33	Supercontig_1.1	330000	340000	PopA.INDEL.lungonly_curated	0
@@ -256,7 +256,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 42	Supercontig_1.1	420000	430000	PopA.INDEL.lungonly_curated	1
 42	Supercontig_1.1	420000	430000	PopA.SNP.lungonly	2
 42	Supercontig_1.1	420000	430000	PopA.SNP.lungonly_curated	0
-42	Supercontig_1.1	420000	430000	repeats	2
+42	Supercontig_1.1	420000	430000	repeats	1
 43	Supercontig_1.1	430000	440000	Genes	6
 43	Supercontig_1.1	430000	440000	PopA.INDEL.lungonly	1
 43	Supercontig_1.1	430000	440000	PopA.INDEL.lungonly_curated	0
@@ -286,7 +286,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 47	Supercontig_1.1	470000	480000	PopA.INDEL.lungonly_curated	0
 47	Supercontig_1.1	470000	480000	PopA.SNP.lungonly	0
 47	Supercontig_1.1	470000	480000	PopA.SNP.lungonly_curated	0
-47	Supercontig_1.1	470000	480000	repeats	3
+47	Supercontig_1.1	470000	480000	repeats	2
 48	Supercontig_1.1	480000	490000	Genes	4
 48	Supercontig_1.1	480000	490000	PopA.INDEL.lungonly	1
 48	Supercontig_1.1	480000	490000	PopA.INDEL.lungonly_curated	0
@@ -478,7 +478,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 79	Supercontig_1.1	790000	800000	PopA.INDEL.lungonly_curated	0
 79	Supercontig_1.1	790000	800000	PopA.SNP.lungonly	0
 79	Supercontig_1.1	790000	800000	PopA.SNP.lungonly_curated	0
-79	Supercontig_1.1	790000	800000	repeats	2
+79	Supercontig_1.1	790000	800000	repeats	1
 80	Supercontig_1.1	800000	810000	Genes	8
 80	Supercontig_1.1	800000	810000	PopA.INDEL.lungonly	0
 80	Supercontig_1.1	800000	810000	PopA.INDEL.lungonly_curated	0
@@ -508,7 +508,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 84	Supercontig_1.1	840000	850000	PopA.INDEL.lungonly_curated	0
 84	Supercontig_1.1	840000	850000	PopA.SNP.lungonly	1
 84	Supercontig_1.1	840000	850000	PopA.SNP.lungonly_curated	0
-84	Supercontig_1.1	840000	850000	repeats	1
+84	Supercontig_1.1	840000	850000	repeats	0
 85	Supercontig_1.1	850000	860000	Genes	6
 85	Supercontig_1.1	850000	860000	PopA.INDEL.lungonly	4
 85	Supercontig_1.1	850000	860000	PopA.INDEL.lungonly_curated	1
@@ -520,7 +520,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 86	Supercontig_1.1	860000	870000	PopA.INDEL.lungonly_curated	1
 86	Supercontig_1.1	860000	870000	PopA.SNP.lungonly	0
 86	Supercontig_1.1	860000	870000	PopA.SNP.lungonly_curated	0
-86	Supercontig_1.1	860000	870000	repeats	1
+86	Supercontig_1.1	860000	870000	repeats	0
 87	Supercontig_1.1	870000	880000	Genes	5
 87	Supercontig_1.1	870000	880000	PopA.INDEL.lungonly	2
 87	Supercontig_1.1	870000	880000	PopA.INDEL.lungonly_curated	0
@@ -556,7 +556,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 92	Supercontig_1.1	920000	930000	PopA.INDEL.lungonly_curated	0
 92	Supercontig_1.1	920000	930000	PopA.SNP.lungonly	0
 92	Supercontig_1.1	920000	930000	PopA.SNP.lungonly_curated	0
-92	Supercontig_1.1	920000	930000	repeats	1
+92	Supercontig_1.1	920000	930000	repeats	0
 93	Supercontig_1.1	930000	940000	Genes	5
 93	Supercontig_1.1	930000	940000	PopA.INDEL.lungonly	0
 93	Supercontig_1.1	930000	940000	PopA.INDEL.lungonly_curated	0
@@ -586,7 +586,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 97	Supercontig_1.1	970000	980000	PopA.INDEL.lungonly_curated	0
 97	Supercontig_1.1	970000	980000	PopA.SNP.lungonly	0
 97	Supercontig_1.1	970000	980000	PopA.SNP.lungonly_curated	0
-97	Supercontig_1.1	970000	980000	repeats	2
+97	Supercontig_1.1	970000	980000	repeats	1
 98	Supercontig_1.1	980000	990000	Genes	6
 98	Supercontig_1.1	980000	990000	PopA.INDEL.lungonly	8
 98	Supercontig_1.1	980000	990000	PopA.INDEL.lungonly_curated	1
@@ -706,7 +706,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 117	Supercontig_1.1	1170000	1180000	PopA.INDEL.lungonly_curated	0
 117	Supercontig_1.1	1170000	1180000	PopA.SNP.lungonly	0
 117	Supercontig_1.1	1170000	1180000	PopA.SNP.lungonly_curated	0
-117	Supercontig_1.1	1170000	1180000	repeats	1
+117	Supercontig_1.1	1170000	1180000	repeats	0
 118	Supercontig_1.1	1180000	1190000	Genes	8
 118	Supercontig_1.1	1180000	1190000	PopA.INDEL.lungonly	0
 118	Supercontig_1.1	1180000	1190000	PopA.INDEL.lungonly_curated	0
@@ -754,7 +754,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 125	Supercontig_1.1	1250000	1260000	PopA.INDEL.lungonly_curated	0
 125	Supercontig_1.1	1250000	1260000	PopA.SNP.lungonly	0
 125	Supercontig_1.1	1250000	1260000	PopA.SNP.lungonly_curated	0
-125	Supercontig_1.1	1250000	1260000	repeats	3
+125	Supercontig_1.1	1250000	1260000	repeats	0
 126	Supercontig_1.1	1260000	1270000	Genes	6
 126	Supercontig_1.1	1260000	1270000	PopA.INDEL.lungonly	0
 126	Supercontig_1.1	1260000	1270000	PopA.INDEL.lungonly_curated	0
@@ -826,7 +826,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 137	Supercontig_1.1	1370000	1380000	PopA.INDEL.lungonly_curated	0
 137	Supercontig_1.1	1370000	1380000	PopA.SNP.lungonly	0
 137	Supercontig_1.1	1370000	1380000	PopA.SNP.lungonly_curated	0
-137	Supercontig_1.1	1370000	1380000	repeats	1
+137	Supercontig_1.1	1370000	1380000	repeats	0
 138	Supercontig_1.1	1380000	1390000	Genes	5
 138	Supercontig_1.1	1380000	1390000	PopA.INDEL.lungonly	0
 138	Supercontig_1.1	1380000	1390000	PopA.INDEL.lungonly_curated	0
@@ -1120,7 +1120,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 186	Supercontig_1.1	1860000	1870000	PopA.INDEL.lungonly_curated	0
 186	Supercontig_1.1	1860000	1870000	PopA.SNP.lungonly	1
 186	Supercontig_1.1	1860000	1870000	PopA.SNP.lungonly_curated	0
-186	Supercontig_1.1	1860000	1870000	repeats	2
+186	Supercontig_1.1	1860000	1870000	repeats	1
 187	Supercontig_1.1	1870000	1880000	Genes	6
 187	Supercontig_1.1	1870000	1880000	PopA.INDEL.lungonly	1
 187	Supercontig_1.1	1870000	1880000	PopA.INDEL.lungonly_curated	0
@@ -1174,7 +1174,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 195	Supercontig_1.1	1950000	1960000	PopA.INDEL.lungonly_curated	0
 195	Supercontig_1.1	1950000	1960000	PopA.SNP.lungonly	0
 195	Supercontig_1.1	1950000	1960000	PopA.SNP.lungonly_curated	0
-195	Supercontig_1.1	1950000	1960000	repeats	1
+195	Supercontig_1.1	1950000	1960000	repeats	0
 196	Supercontig_1.1	1960000	1970000	Genes	5
 196	Supercontig_1.1	1960000	1970000	PopA.INDEL.lungonly	1
 196	Supercontig_1.1	1960000	1970000	PopA.INDEL.lungonly_curated	0
@@ -1252,7 +1252,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 208	Supercontig_1.1	2080000	2090000	PopA.INDEL.lungonly_curated	0
 208	Supercontig_1.1	2080000	2090000	PopA.SNP.lungonly	1
 208	Supercontig_1.1	2080000	2090000	PopA.SNP.lungonly_curated	1
-208	Supercontig_1.1	2080000	2090000	repeats	2
+208	Supercontig_1.1	2080000	2090000	repeats	0
 209	Supercontig_1.1	2090000	2100000	Genes	4
 209	Supercontig_1.1	2090000	2100000	PopA.INDEL.lungonly	0
 209	Supercontig_1.1	2090000	2100000	PopA.INDEL.lungonly_curated	0
@@ -1354,13 +1354,13 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 225	Supercontig_1.1	2250000	2260000	PopA.INDEL.lungonly_curated	0
 225	Supercontig_1.1	2250000	2260000	PopA.SNP.lungonly	0
 225	Supercontig_1.1	2250000	2260000	PopA.SNP.lungonly_curated	0
-225	Supercontig_1.1	2250000	2260000	repeats	1
+225	Supercontig_1.1	2250000	2260000	repeats	0
 226	Supercontig_1.1	2260000	2270000	Genes	4
 226	Supercontig_1.1	2260000	2270000	PopA.INDEL.lungonly	5
 226	Supercontig_1.1	2260000	2270000	PopA.INDEL.lungonly_curated	2
 226	Supercontig_1.1	2260000	2270000	PopA.SNP.lungonly	0
 226	Supercontig_1.1	2260000	2270000	PopA.SNP.lungonly_curated	0
-226	Supercontig_1.1	2260000	2270000	repeats	3
+226	Supercontig_1.1	2260000	2270000	repeats	0
 227	Supercontig_1.1	2270000	2280000	Genes	10
 227	Supercontig_1.1	2270000	2280000	PopA.INDEL.lungonly	0
 227	Supercontig_1.1	2270000	2280000	PopA.INDEL.lungonly_curated	0
@@ -1576,7 +1576,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 262	Supercontig_1.2	190000	200000	PopA.INDEL.lungonly_curated	0
 262	Supercontig_1.2	190000	200000	PopA.SNP.lungonly	2
 262	Supercontig_1.2	190000	200000	PopA.SNP.lungonly_curated	2
-262	Supercontig_1.2	190000	200000	repeats	3
+262	Supercontig_1.2	190000	200000	repeats	2
 263	Supercontig_1.2	200000	210000	Genes	7
 263	Supercontig_1.2	200000	210000	PopA.INDEL.lungonly	0
 263	Supercontig_1.2	200000	210000	PopA.INDEL.lungonly_curated	0
@@ -1738,7 +1738,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 289	Supercontig_1.2	460000	470000	PopA.INDEL.lungonly_curated	0
 289	Supercontig_1.2	460000	470000	PopA.SNP.lungonly	0
 289	Supercontig_1.2	460000	470000	PopA.SNP.lungonly_curated	0
-289	Supercontig_1.2	460000	470000	repeats	2
+289	Supercontig_1.2	460000	470000	repeats	1
 290	Supercontig_1.2	470000	480000	Genes	4
 290	Supercontig_1.2	470000	480000	PopA.INDEL.lungonly	1
 290	Supercontig_1.2	470000	480000	PopA.INDEL.lungonly_curated	0
@@ -1936,7 +1936,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 322	Supercontig_1.2	790000	800000	PopA.INDEL.lungonly_curated	0
 322	Supercontig_1.2	790000	800000	PopA.SNP.lungonly	1
 322	Supercontig_1.2	790000	800000	PopA.SNP.lungonly_curated	1
-322	Supercontig_1.2	790000	800000	repeats	1
+322	Supercontig_1.2	790000	800000	repeats	0
 323	Supercontig_1.2	800000	810000	Genes	6
 323	Supercontig_1.2	800000	810000	PopA.INDEL.lungonly	0
 323	Supercontig_1.2	800000	810000	PopA.INDEL.lungonly_curated	0
@@ -2008,13 +2008,13 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 334	Supercontig_1.2	910000	920000	PopA.INDEL.lungonly_curated	0
 334	Supercontig_1.2	910000	920000	PopA.SNP.lungonly	0
 334	Supercontig_1.2	910000	920000	PopA.SNP.lungonly_curated	0
-334	Supercontig_1.2	910000	920000	repeats	1
+334	Supercontig_1.2	910000	920000	repeats	0
 335	Supercontig_1.2	920000	930000	Genes	5
 335	Supercontig_1.2	920000	930000	PopA.INDEL.lungonly	0
 335	Supercontig_1.2	920000	930000	PopA.INDEL.lungonly_curated	0
 335	Supercontig_1.2	920000	930000	PopA.SNP.lungonly	0
 335	Supercontig_1.2	920000	930000	PopA.SNP.lungonly_curated	0
-335	Supercontig_1.2	920000	930000	repeats	1
+335	Supercontig_1.2	920000	930000	repeats	0
 336	Supercontig_1.2	930000	940000	Genes	7
 336	Supercontig_1.2	930000	940000	PopA.INDEL.lungonly	0
 336	Supercontig_1.2	930000	940000	PopA.INDEL.lungonly_curated	0
@@ -2080,7 +2080,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 346	Supercontig_1.2	1030000	1040000	PopA.INDEL.lungonly_curated	0
 346	Supercontig_1.2	1030000	1040000	PopA.SNP.lungonly	1
 346	Supercontig_1.2	1030000	1040000	PopA.SNP.lungonly_curated	1
-346	Supercontig_1.2	1030000	1040000	repeats	1
+346	Supercontig_1.2	1030000	1040000	repeats	0
 347	Supercontig_1.2	1040000	1050000	Genes	3
 347	Supercontig_1.2	1040000	1050000	PopA.INDEL.lungonly	1
 347	Supercontig_1.2	1040000	1050000	PopA.INDEL.lungonly_curated	1
@@ -2134,7 +2134,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 355	Supercontig_1.2	1120000	1130000	PopA.INDEL.lungonly_curated	1
 355	Supercontig_1.2	1120000	1130000	PopA.SNP.lungonly	1
 355	Supercontig_1.2	1120000	1130000	PopA.SNP.lungonly_curated	1
-355	Supercontig_1.2	1120000	1130000	repeats	4
+355	Supercontig_1.2	1120000	1130000	repeats	2
 356	Supercontig_1.2	1130000	1140000	Genes	6
 356	Supercontig_1.2	1130000	1140000	PopA.INDEL.lungonly	0
 356	Supercontig_1.2	1130000	1140000	PopA.INDEL.lungonly_curated	0
@@ -2230,7 +2230,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 371	Supercontig_1.2	1280000	1290000	PopA.INDEL.lungonly_curated	1
 371	Supercontig_1.2	1280000	1290000	PopA.SNP.lungonly	0
 371	Supercontig_1.2	1280000	1290000	PopA.SNP.lungonly_curated	0
-371	Supercontig_1.2	1280000	1290000	repeats	2
+371	Supercontig_1.2	1280000	1290000	repeats	0
 372	Supercontig_1.2	1290000	1300000	Genes	6
 372	Supercontig_1.2	1290000	1300000	PopA.INDEL.lungonly	0
 372	Supercontig_1.2	1290000	1300000	PopA.INDEL.lungonly_curated	0
@@ -2260,7 +2260,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 376	Supercontig_1.2	1330000	1340000	PopA.INDEL.lungonly_curated	0
 376	Supercontig_1.2	1330000	1340000	PopA.SNP.lungonly	0
 376	Supercontig_1.2	1330000	1340000	PopA.SNP.lungonly_curated	0
-376	Supercontig_1.2	1330000	1340000	repeats	1
+376	Supercontig_1.2	1330000	1340000	repeats	0
 377	Supercontig_1.2	1340000	1350000	Genes	7
 377	Supercontig_1.2	1340000	1350000	PopA.INDEL.lungonly	0
 377	Supercontig_1.2	1340000	1350000	PopA.INDEL.lungonly_curated	0
@@ -2404,7 +2404,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 400	Supercontig_1.2	1570000	1580000	PopA.INDEL.lungonly_curated	0
 400	Supercontig_1.2	1570000	1580000	PopA.SNP.lungonly	1
 400	Supercontig_1.2	1570000	1580000	PopA.SNP.lungonly_curated	0
-400	Supercontig_1.2	1570000	1580000	repeats	1
+400	Supercontig_1.2	1570000	1580000	repeats	0
 401	Supercontig_1.2	1580000	1590000	Genes	3
 401	Supercontig_1.2	1580000	1590000	PopA.INDEL.lungonly	1
 401	Supercontig_1.2	1580000	1590000	PopA.INDEL.lungonly_curated	0
@@ -2458,7 +2458,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 409	Supercontig_1.2	1660000	1670000	PopA.INDEL.lungonly_curated	2
 409	Supercontig_1.2	1660000	1670000	PopA.SNP.lungonly	0
 409	Supercontig_1.2	1660000	1670000	PopA.SNP.lungonly_curated	0
-409	Supercontig_1.2	1660000	1670000	repeats	1
+409	Supercontig_1.2	1660000	1670000	repeats	0
 410	Supercontig_1.2	1670000	1680000	Genes	3
 410	Supercontig_1.2	1670000	1680000	PopA.INDEL.lungonly	6
 410	Supercontig_1.2	1670000	1680000	PopA.INDEL.lungonly_curated	1
@@ -2476,7 +2476,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 412	Supercontig_1.2	1690000	1700000	PopA.INDEL.lungonly_curated	0
 412	Supercontig_1.2	1690000	1700000	PopA.SNP.lungonly	3
 412	Supercontig_1.2	1690000	1700000	PopA.SNP.lungonly_curated	2
-412	Supercontig_1.2	1690000	1700000	repeats	1
+412	Supercontig_1.2	1690000	1700000	repeats	0
 413	Supercontig_1.2	1700000	1710000	Genes	4
 413	Supercontig_1.2	1700000	1710000	PopA.INDEL.lungonly	12
 413	Supercontig_1.2	1700000	1710000	PopA.INDEL.lungonly_curated	1
@@ -2488,13 +2488,13 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 414	Supercontig_1.2	1710000	1720000	PopA.INDEL.lungonly_curated	1
 414	Supercontig_1.2	1710000	1720000	PopA.SNP.lungonly	0
 414	Supercontig_1.2	1710000	1720000	PopA.SNP.lungonly_curated	0
-414	Supercontig_1.2	1710000	1720000	repeats	1
+414	Supercontig_1.2	1710000	1720000	repeats	0
 415	Supercontig_1.2	1720000	1730000	Genes	5
 415	Supercontig_1.2	1720000	1730000	PopA.INDEL.lungonly	2
 415	Supercontig_1.2	1720000	1730000	PopA.INDEL.lungonly_curated	0
 415	Supercontig_1.2	1720000	1730000	PopA.SNP.lungonly	0
 415	Supercontig_1.2	1720000	1730000	PopA.SNP.lungonly_curated	0
-415	Supercontig_1.2	1720000	1730000	repeats	1
+415	Supercontig_1.2	1720000	1730000	repeats	0
 416	Supercontig_1.2	1730000	1740000	Genes	5
 416	Supercontig_1.2	1730000	1740000	PopA.INDEL.lungonly	2
 416	Supercontig_1.2	1730000	1740000	PopA.INDEL.lungonly_curated	0
@@ -2506,13 +2506,13 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 417	Supercontig_1.2	1740000	1750000	PopA.INDEL.lungonly_curated	1
 417	Supercontig_1.2	1740000	1750000	PopA.SNP.lungonly	0
 417	Supercontig_1.2	1740000	1750000	PopA.SNP.lungonly_curated	0
-417	Supercontig_1.2	1740000	1750000	repeats	3
+417	Supercontig_1.2	1740000	1750000	repeats	2
 418	Supercontig_1.2	1750000	1760000	Genes	11
 418	Supercontig_1.2	1750000	1760000	PopA.INDEL.lungonly	11
 418	Supercontig_1.2	1750000	1760000	PopA.INDEL.lungonly_curated	3
 418	Supercontig_1.2	1750000	1760000	PopA.SNP.lungonly	1
 418	Supercontig_1.2	1750000	1760000	PopA.SNP.lungonly_curated	1
-418	Supercontig_1.2	1750000	1760000	repeats	1
+418	Supercontig_1.2	1750000	1760000	repeats	0
 419	Supercontig_1.2	1760000	1770000	Genes	5
 419	Supercontig_1.2	1760000	1770000	PopA.INDEL.lungonly	6
 419	Supercontig_1.2	1760000	1770000	PopA.INDEL.lungonly_curated	6
@@ -2620,7 +2620,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 436	Supercontig_1.2	1930000	1940000	PopA.INDEL.lungonly_curated	0
 436	Supercontig_1.2	1930000	1940000	PopA.SNP.lungonly	0
 436	Supercontig_1.2	1930000	1940000	PopA.SNP.lungonly_curated	0
-436	Supercontig_1.2	1930000	1940000	repeats	1
+436	Supercontig_1.2	1930000	1940000	repeats	0
 437	Supercontig_1.2	1940000	1950000	Genes	3
 437	Supercontig_1.2	1940000	1950000	PopA.INDEL.lungonly	0
 437	Supercontig_1.2	1940000	1950000	PopA.INDEL.lungonly_curated	0
@@ -2668,7 +2668,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 444	Supercontig_1.2	2010000	2020000	PopA.INDEL.lungonly_curated	0
 444	Supercontig_1.2	2010000	2020000	PopA.SNP.lungonly	0
 444	Supercontig_1.2	2010000	2020000	PopA.SNP.lungonly_curated	0
-444	Supercontig_1.2	2010000	2020000	repeats	2
+444	Supercontig_1.2	2010000	2020000	repeats	0
 445	Supercontig_1.2	2020000	2030000	Genes	3
 445	Supercontig_1.2	2020000	2030000	PopA.INDEL.lungonly	0
 445	Supercontig_1.2	2020000	2030000	PopA.INDEL.lungonly_curated	0
@@ -2716,7 +2716,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 452	Supercontig_1.2	2090000	2100000	PopA.INDEL.lungonly_curated	0
 452	Supercontig_1.2	2090000	2100000	PopA.SNP.lungonly	1
 452	Supercontig_1.2	2090000	2100000	PopA.SNP.lungonly_curated	1
-452	Supercontig_1.2	2090000	2100000	repeats	1
+452	Supercontig_1.2	2090000	2100000	repeats	0
 453	Supercontig_1.2	2100000	2110000	Genes	5
 453	Supercontig_1.2	2100000	2110000	PopA.INDEL.lungonly	0
 453	Supercontig_1.2	2100000	2110000	PopA.INDEL.lungonly_curated	0
@@ -2854,7 +2854,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 475	Supercontig_1.3	100000	110000	PopA.INDEL.lungonly_curated	0
 475	Supercontig_1.3	100000	110000	PopA.SNP.lungonly	0
 475	Supercontig_1.3	100000	110000	PopA.SNP.lungonly_curated	0
-475	Supercontig_1.3	100000	110000	repeats	2
+475	Supercontig_1.3	100000	110000	repeats	1
 476	Supercontig_1.3	110000	120000	Genes	4
 476	Supercontig_1.3	110000	120000	PopA.INDEL.lungonly	1
 476	Supercontig_1.3	110000	120000	PopA.INDEL.lungonly_curated	1
@@ -3058,7 +3058,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 509	Supercontig_1.3	440000	450000	PopA.INDEL.lungonly_curated	0
 509	Supercontig_1.3	440000	450000	PopA.SNP.lungonly	1
 509	Supercontig_1.3	440000	450000	PopA.SNP.lungonly_curated	1
-509	Supercontig_1.3	440000	450000	repeats	2
+509	Supercontig_1.3	440000	450000	repeats	1
 510	Supercontig_1.3	450000	460000	Genes	5
 510	Supercontig_1.3	450000	460000	PopA.INDEL.lungonly	2
 510	Supercontig_1.3	450000	460000	PopA.INDEL.lungonly_curated	1
@@ -3088,7 +3088,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 514	Supercontig_1.3	490000	500000	PopA.INDEL.lungonly_curated	0
 514	Supercontig_1.3	490000	500000	PopA.SNP.lungonly	0
 514	Supercontig_1.3	490000	500000	PopA.SNP.lungonly_curated	0
-514	Supercontig_1.3	490000	500000	repeats	1
+514	Supercontig_1.3	490000	500000	repeats	0
 515	Supercontig_1.3	500000	510000	Genes	4
 515	Supercontig_1.3	500000	510000	PopA.INDEL.lungonly	0
 515	Supercontig_1.3	500000	510000	PopA.INDEL.lungonly_curated	0
@@ -3382,7 +3382,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 563	Supercontig_1.3	980000	990000	PopA.INDEL.lungonly_curated	0
 563	Supercontig_1.3	980000	990000	PopA.SNP.lungonly	0
 563	Supercontig_1.3	980000	990000	PopA.SNP.lungonly_curated	0
-563	Supercontig_1.3	980000	990000	repeats	1
+563	Supercontig_1.3	980000	990000	repeats	0
 564	Supercontig_1.3	990000	1000000	Genes	4
 564	Supercontig_1.3	990000	1000000	PopA.INDEL.lungonly	3
 564	Supercontig_1.3	990000	1000000	PopA.INDEL.lungonly_curated	2
@@ -3406,7 +3406,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 567	Supercontig_1.3	1020000	1030000	PopA.INDEL.lungonly_curated	0
 567	Supercontig_1.3	1020000	1030000	PopA.SNP.lungonly	2
 567	Supercontig_1.3	1020000	1030000	PopA.SNP.lungonly_curated	0
-567	Supercontig_1.3	1020000	1030000	repeats	1
+567	Supercontig_1.3	1020000	1030000	repeats	0
 568	Supercontig_1.3	1030000	1040000	Genes	5
 568	Supercontig_1.3	1030000	1040000	PopA.INDEL.lungonly	1
 568	Supercontig_1.3	1030000	1040000	PopA.INDEL.lungonly_curated	1
@@ -3436,7 +3436,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 572	Supercontig_1.3	1070000	1080000	PopA.INDEL.lungonly_curated	1
 572	Supercontig_1.3	1070000	1080000	PopA.SNP.lungonly	1
 572	Supercontig_1.3	1070000	1080000	PopA.SNP.lungonly_curated	0
-572	Supercontig_1.3	1070000	1080000	repeats	1
+572	Supercontig_1.3	1070000	1080000	repeats	0
 573	Supercontig_1.3	1080000	1090000	Genes	8
 573	Supercontig_1.3	1080000	1090000	PopA.INDEL.lungonly	0
 573	Supercontig_1.3	1080000	1090000	PopA.INDEL.lungonly_curated	0
@@ -3514,7 +3514,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 585	Supercontig_1.3	1200000	1210000	PopA.INDEL.lungonly_curated	0
 585	Supercontig_1.3	1200000	1210000	PopA.SNP.lungonly	2
 585	Supercontig_1.3	1200000	1210000	PopA.SNP.lungonly_curated	1
-585	Supercontig_1.3	1200000	1210000	repeats	1
+585	Supercontig_1.3	1200000	1210000	repeats	0
 586	Supercontig_1.3	1210000	1220000	Genes	5
 586	Supercontig_1.3	1210000	1220000	PopA.INDEL.lungonly	14
 586	Supercontig_1.3	1210000	1220000	PopA.INDEL.lungonly_curated	1
@@ -3598,7 +3598,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 599	Supercontig_1.3	1340000	1350000	PopA.INDEL.lungonly_curated	0
 599	Supercontig_1.3	1340000	1350000	PopA.SNP.lungonly	2
 599	Supercontig_1.3	1340000	1350000	PopA.SNP.lungonly_curated	0
-599	Supercontig_1.3	1340000	1350000	repeats	1
+599	Supercontig_1.3	1340000	1350000	repeats	0
 600	Supercontig_1.3	1350000	1360000	Genes	4
 600	Supercontig_1.3	1350000	1360000	PopA.INDEL.lungonly	1
 600	Supercontig_1.3	1350000	1360000	PopA.INDEL.lungonly_curated	0
@@ -3634,7 +3634,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 605	Supercontig_1.3	1400000	1410000	PopA.INDEL.lungonly_curated	0
 605	Supercontig_1.3	1400000	1410000	PopA.SNP.lungonly	1
 605	Supercontig_1.3	1400000	1410000	PopA.SNP.lungonly_curated	0
-605	Supercontig_1.3	1400000	1410000	repeats	1
+605	Supercontig_1.3	1400000	1410000	repeats	0
 606	Supercontig_1.3	1410000	1420000	Genes	3
 606	Supercontig_1.3	1410000	1420000	PopA.INDEL.lungonly	4
 606	Supercontig_1.3	1410000	1420000	PopA.INDEL.lungonly_curated	0
@@ -3658,7 +3658,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 609	Supercontig_1.3	1440000	1450000	PopA.INDEL.lungonly_curated	0
 609	Supercontig_1.3	1440000	1450000	PopA.SNP.lungonly	0
 609	Supercontig_1.3	1440000	1450000	PopA.SNP.lungonly_curated	0
-609	Supercontig_1.3	1440000	1450000	repeats	1
+609	Supercontig_1.3	1440000	1450000	repeats	0
 610	Supercontig_1.3	1450000	1460000	Genes	4
 610	Supercontig_1.3	1450000	1460000	PopA.INDEL.lungonly	0
 610	Supercontig_1.3	1450000	1460000	PopA.INDEL.lungonly_curated	0
@@ -3712,7 +3712,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 618	Supercontig_1.3	1530000	1540000	PopA.INDEL.lungonly_curated	0
 618	Supercontig_1.3	1530000	1540000	PopA.SNP.lungonly	1
 618	Supercontig_1.3	1530000	1540000	PopA.SNP.lungonly_curated	0
-618	Supercontig_1.3	1530000	1540000	repeats	3
+618	Supercontig_1.3	1530000	1540000	repeats	2
 619	Supercontig_1.3	1540000	1550000	Genes	7
 619	Supercontig_1.3	1540000	1550000	PopA.INDEL.lungonly	1
 619	Supercontig_1.3	1540000	1550000	PopA.INDEL.lungonly_curated	0
@@ -3748,7 +3748,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 624	Supercontig_1.3	1590000	1600000	PopA.INDEL.lungonly_curated	0
 624	Supercontig_1.3	1590000	1600000	PopA.SNP.lungonly	0
 624	Supercontig_1.3	1590000	1600000	PopA.SNP.lungonly_curated	0
-624	Supercontig_1.3	1590000	1600000	repeats	1
+624	Supercontig_1.3	1590000	1600000	repeats	0
 625	Supercontig_1.3	1600000	1610000	Genes	6
 625	Supercontig_1.3	1600000	1610000	PopA.INDEL.lungonly	0
 625	Supercontig_1.3	1600000	1610000	PopA.INDEL.lungonly_curated	0
@@ -3928,7 +3928,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 654	Supercontig_1.4	10000	20000	PopA.INDEL.lungonly_curated	4
 654	Supercontig_1.4	10000	20000	PopA.SNP.lungonly	4
 654	Supercontig_1.4	10000	20000	PopA.SNP.lungonly_curated	1
-654	Supercontig_1.4	10000	20000	repeats	2
+654	Supercontig_1.4	10000	20000	repeats	0
 655	Supercontig_1.4	20000	30000	Genes	6
 655	Supercontig_1.4	20000	30000	PopA.INDEL.lungonly	3
 655	Supercontig_1.4	20000	30000	PopA.INDEL.lungonly_curated	0
@@ -4006,7 +4006,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 667	Supercontig_1.4	140000	150000	PopA.INDEL.lungonly_curated	0
 667	Supercontig_1.4	140000	150000	PopA.SNP.lungonly	0
 667	Supercontig_1.4	140000	150000	PopA.SNP.lungonly_curated	0
-667	Supercontig_1.4	140000	150000	repeats	1
+667	Supercontig_1.4	140000	150000	repeats	0
 668	Supercontig_1.4	150000	160000	Genes	6
 668	Supercontig_1.4	150000	160000	PopA.INDEL.lungonly	1
 668	Supercontig_1.4	150000	160000	PopA.INDEL.lungonly_curated	0
@@ -4030,7 +4030,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 671	Supercontig_1.4	180000	190000	PopA.INDEL.lungonly_curated	0
 671	Supercontig_1.4	180000	190000	PopA.SNP.lungonly	0
 671	Supercontig_1.4	180000	190000	PopA.SNP.lungonly_curated	0
-671	Supercontig_1.4	180000	190000	repeats	3
+671	Supercontig_1.4	180000	190000	repeats	1
 672	Supercontig_1.4	190000	200000	Genes	7
 672	Supercontig_1.4	190000	200000	PopA.INDEL.lungonly	0
 672	Supercontig_1.4	190000	200000	PopA.INDEL.lungonly_curated	0
@@ -4096,7 +4096,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 682	Supercontig_1.4	290000	300000	PopA.INDEL.lungonly_curated	2
 682	Supercontig_1.4	290000	300000	PopA.SNP.lungonly	0
 682	Supercontig_1.4	290000	300000	PopA.SNP.lungonly_curated	0
-682	Supercontig_1.4	290000	300000	repeats	2
+682	Supercontig_1.4	290000	300000	repeats	1
 683	Supercontig_1.4	300000	310000	Genes	6
 683	Supercontig_1.4	300000	310000	PopA.INDEL.lungonly	4
 683	Supercontig_1.4	300000	310000	PopA.INDEL.lungonly_curated	1
@@ -4108,7 +4108,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 684	Supercontig_1.4	310000	320000	PopA.INDEL.lungonly_curated	1
 684	Supercontig_1.4	310000	320000	PopA.SNP.lungonly	1
 684	Supercontig_1.4	310000	320000	PopA.SNP.lungonly_curated	0
-684	Supercontig_1.4	310000	320000	repeats	1
+684	Supercontig_1.4	310000	320000	repeats	0
 685	Supercontig_1.4	320000	330000	Genes	7
 685	Supercontig_1.4	320000	330000	PopA.INDEL.lungonly	4
 685	Supercontig_1.4	320000	330000	PopA.INDEL.lungonly_curated	1
@@ -4246,7 +4246,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 707	Supercontig_1.4	540000	550000	PopA.INDEL.lungonly_curated	0
 707	Supercontig_1.4	540000	550000	PopA.SNP.lungonly	0
 707	Supercontig_1.4	540000	550000	PopA.SNP.lungonly_curated	0
-707	Supercontig_1.4	540000	550000	repeats	2
+707	Supercontig_1.4	540000	550000	repeats	1
 708	Supercontig_1.4	550000	560000	Genes	8
 708	Supercontig_1.4	550000	560000	PopA.INDEL.lungonly	0
 708	Supercontig_1.4	550000	560000	PopA.INDEL.lungonly_curated	0
@@ -4282,7 +4282,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 713	Supercontig_1.4	600000	610000	PopA.INDEL.lungonly_curated	0
 713	Supercontig_1.4	600000	610000	PopA.SNP.lungonly	0
 713	Supercontig_1.4	600000	610000	PopA.SNP.lungonly_curated	0
-713	Supercontig_1.4	600000	610000	repeats	1
+713	Supercontig_1.4	600000	610000	repeats	0
 714	Supercontig_1.4	610000	620000	Genes	5
 714	Supercontig_1.4	610000	620000	PopA.INDEL.lungonly	0
 714	Supercontig_1.4	610000	620000	PopA.INDEL.lungonly_curated	0
@@ -4390,7 +4390,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 731	Supercontig_1.4	780000	790000	PopA.INDEL.lungonly_curated	0
 731	Supercontig_1.4	780000	790000	PopA.SNP.lungonly	0
 731	Supercontig_1.4	780000	790000	PopA.SNP.lungonly_curated	0
-731	Supercontig_1.4	780000	790000	repeats	2
+731	Supercontig_1.4	780000	790000	repeats	0
 732	Supercontig_1.4	790000	800000	Genes	6
 732	Supercontig_1.4	790000	800000	PopA.INDEL.lungonly	0
 732	Supercontig_1.4	790000	800000	PopA.INDEL.lungonly_curated	0
@@ -4408,7 +4408,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 734	Supercontig_1.4	810000	820000	PopA.INDEL.lungonly_curated	0
 734	Supercontig_1.4	810000	820000	PopA.SNP.lungonly	0
 734	Supercontig_1.4	810000	820000	PopA.SNP.lungonly_curated	0
-734	Supercontig_1.4	810000	820000	repeats	1
+734	Supercontig_1.4	810000	820000	repeats	0
 735	Supercontig_1.4	820000	830000	Genes	5
 735	Supercontig_1.4	820000	830000	PopA.INDEL.lungonly	3
 735	Supercontig_1.4	820000	830000	PopA.INDEL.lungonly_curated	2
@@ -4486,7 +4486,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 747	Supercontig_1.4	940000	950000	PopA.INDEL.lungonly_curated	2
 747	Supercontig_1.4	940000	950000	PopA.SNP.lungonly	0
 747	Supercontig_1.4	940000	950000	PopA.SNP.lungonly_curated	0
-747	Supercontig_1.4	940000	950000	repeats	1
+747	Supercontig_1.4	940000	950000	repeats	0
 748	Supercontig_1.4	950000	960000	Genes	7
 748	Supercontig_1.4	950000	960000	PopA.INDEL.lungonly	0
 748	Supercontig_1.4	950000	960000	PopA.INDEL.lungonly_curated	0
@@ -4534,7 +4534,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 755	Supercontig_1.4	1020000	1030000	PopA.INDEL.lungonly_curated	0
 755	Supercontig_1.4	1020000	1030000	PopA.SNP.lungonly	0
 755	Supercontig_1.4	1020000	1030000	PopA.SNP.lungonly_curated	0
-755	Supercontig_1.4	1020000	1030000	repeats	1
+755	Supercontig_1.4	1020000	1030000	repeats	0
 756	Supercontig_1.4	1030000	1040000	Genes	6
 756	Supercontig_1.4	1030000	1040000	PopA.INDEL.lungonly	0
 756	Supercontig_1.4	1030000	1040000	PopA.INDEL.lungonly_curated	0
@@ -4552,7 +4552,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 758	Supercontig_1.4	1050000	1060000	PopA.INDEL.lungonly_curated	0
 758	Supercontig_1.4	1050000	1060000	PopA.SNP.lungonly	2
 758	Supercontig_1.4	1050000	1060000	PopA.SNP.lungonly_curated	2
-758	Supercontig_1.4	1050000	1060000	repeats	1
+758	Supercontig_1.4	1050000	1060000	repeats	0
 759	Supercontig_1.4	1060000	1070000	Genes	5
 759	Supercontig_1.4	1060000	1070000	PopA.INDEL.lungonly	2
 759	Supercontig_1.4	1060000	1070000	PopA.INDEL.lungonly_curated	0
@@ -4570,7 +4570,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 761	Supercontig_1.4	1080000	1090000	PopA.INDEL.lungonly_curated	0
 761	Supercontig_1.4	1080000	1090000	PopA.SNP.lungonly	0
 761	Supercontig_1.4	1080000	1090000	PopA.SNP.lungonly_curated	0
-761	Supercontig_1.4	1080000	1090000	repeats	1
+761	Supercontig_1.4	1080000	1090000	repeats	0
 762	Supercontig_1.4	1090000	1100000	Genes	5
 762	Supercontig_1.4	1090000	1100000	PopA.INDEL.lungonly	0
 762	Supercontig_1.4	1090000	1100000	PopA.INDEL.lungonly_curated	0
@@ -4858,7 +4858,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 809	Supercontig_1.4	1560000	1570000	PopA.INDEL.lungonly_curated	0
 809	Supercontig_1.4	1560000	1570000	PopA.SNP.lungonly	0
 809	Supercontig_1.4	1560000	1570000	PopA.SNP.lungonly_curated	0
-809	Supercontig_1.4	1560000	1570000	repeats	1
+809	Supercontig_1.4	1560000	1570000	repeats	0
 810	Supercontig_1.4	1570000	1580000	Genes	5
 810	Supercontig_1.4	1570000	1580000	PopA.INDEL.lungonly	0
 810	Supercontig_1.4	1570000	1580000	PopA.INDEL.lungonly_curated	0
@@ -4984,7 +4984,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 830	Supercontig_1.4	1770000	1780000	PopA.INDEL.lungonly_curated	0
 830	Supercontig_1.4	1770000	1780000	PopA.SNP.lungonly	2
 830	Supercontig_1.4	1770000	1780000	PopA.SNP.lungonly_curated	2
-830	Supercontig_1.4	1770000	1780000	repeats	1
+830	Supercontig_1.4	1770000	1780000	repeats	0
 831	Supercontig_1.4	1780000	1787903	Genes	3
 831	Supercontig_1.4	1780000	1787903	PopA.INDEL.lungonly	1
 831	Supercontig_1.4	1780000	1787903	PopA.INDEL.lungonly_curated	1
@@ -4996,7 +4996,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 832	Supercontig_1.5	0	10000	PopA.INDEL.lungonly_curated	3
 832	Supercontig_1.5	0	10000	PopA.SNP.lungonly	0
 832	Supercontig_1.5	0	10000	PopA.SNP.lungonly_curated	0
-832	Supercontig_1.5	0	10000	repeats	1
+832	Supercontig_1.5	0	10000	repeats	0
 833	Supercontig_1.5	10000	20000	Genes	7
 833	Supercontig_1.5	10000	20000	PopA.INDEL.lungonly	3
 833	Supercontig_1.5	10000	20000	PopA.INDEL.lungonly_curated	1
@@ -5020,7 +5020,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 836	Supercontig_1.5	40000	50000	PopA.INDEL.lungonly_curated	0
 836	Supercontig_1.5	40000	50000	PopA.SNP.lungonly	0
 836	Supercontig_1.5	40000	50000	PopA.SNP.lungonly_curated	0
-836	Supercontig_1.5	40000	50000	repeats	1
+836	Supercontig_1.5	40000	50000	repeats	0
 837	Supercontig_1.5	50000	60000	Genes	4
 837	Supercontig_1.5	50000	60000	PopA.INDEL.lungonly	0
 837	Supercontig_1.5	50000	60000	PopA.INDEL.lungonly_curated	0
@@ -5062,7 +5062,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 843	Supercontig_1.5	110000	120000	PopA.INDEL.lungonly_curated	1
 843	Supercontig_1.5	110000	120000	PopA.SNP.lungonly	4
 843	Supercontig_1.5	110000	120000	PopA.SNP.lungonly_curated	0
-843	Supercontig_1.5	110000	120000	repeats	1
+843	Supercontig_1.5	110000	120000	repeats	0
 844	Supercontig_1.5	120000	130000	Genes	2
 844	Supercontig_1.5	120000	130000	PopA.INDEL.lungonly	0
 844	Supercontig_1.5	120000	130000	PopA.INDEL.lungonly_curated	0
@@ -5110,7 +5110,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 851	Supercontig_1.5	190000	200000	PopA.INDEL.lungonly_curated	3
 851	Supercontig_1.5	190000	200000	PopA.SNP.lungonly	0
 851	Supercontig_1.5	190000	200000	PopA.SNP.lungonly_curated	0
-851	Supercontig_1.5	190000	200000	repeats	1
+851	Supercontig_1.5	190000	200000	repeats	0
 852	Supercontig_1.5	200000	210000	Genes	6
 852	Supercontig_1.5	200000	210000	PopA.INDEL.lungonly	9
 852	Supercontig_1.5	200000	210000	PopA.INDEL.lungonly_curated	1
@@ -5200,7 +5200,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 866	Supercontig_1.5	340000	350000	PopA.INDEL.lungonly_curated	1
 866	Supercontig_1.5	340000	350000	PopA.SNP.lungonly	1
 866	Supercontig_1.5	340000	350000	PopA.SNP.lungonly_curated	1
-866	Supercontig_1.5	340000	350000	repeats	2
+866	Supercontig_1.5	340000	350000	repeats	1
 867	Supercontig_1.5	350000	360000	Genes	5
 867	Supercontig_1.5	350000	360000	PopA.INDEL.lungonly	1
 867	Supercontig_1.5	350000	360000	PopA.INDEL.lungonly_curated	1
@@ -5230,13 +5230,13 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 871	Supercontig_1.5	390000	400000	PopA.INDEL.lungonly_curated	0
 871	Supercontig_1.5	390000	400000	PopA.SNP.lungonly	1
 871	Supercontig_1.5	390000	400000	PopA.SNP.lungonly_curated	1
-871	Supercontig_1.5	390000	400000	repeats	1
+871	Supercontig_1.5	390000	400000	repeats	0
 872	Supercontig_1.5	400000	410000	Genes	5
 872	Supercontig_1.5	400000	410000	PopA.INDEL.lungonly	3
 872	Supercontig_1.5	400000	410000	PopA.INDEL.lungonly_curated	2
 872	Supercontig_1.5	400000	410000	PopA.SNP.lungonly	0
 872	Supercontig_1.5	400000	410000	PopA.SNP.lungonly_curated	0
-872	Supercontig_1.5	400000	410000	repeats	1
+872	Supercontig_1.5	400000	410000	repeats	0
 873	Supercontig_1.5	410000	420000	Genes	4
 873	Supercontig_1.5	410000	420000	PopA.INDEL.lungonly	0
 873	Supercontig_1.5	410000	420000	PopA.INDEL.lungonly_curated	0
@@ -5248,7 +5248,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 874	Supercontig_1.5	420000	430000	PopA.INDEL.lungonly_curated	1
 874	Supercontig_1.5	420000	430000	PopA.SNP.lungonly	1
 874	Supercontig_1.5	420000	430000	PopA.SNP.lungonly_curated	1
-874	Supercontig_1.5	420000	430000	repeats	1
+874	Supercontig_1.5	420000	430000	repeats	0
 875	Supercontig_1.5	430000	440000	Genes	4
 875	Supercontig_1.5	430000	440000	PopA.INDEL.lungonly	0
 875	Supercontig_1.5	430000	440000	PopA.INDEL.lungonly_curated	0
@@ -5272,7 +5272,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 878	Supercontig_1.5	460000	470000	PopA.INDEL.lungonly_curated	0
 878	Supercontig_1.5	460000	470000	PopA.SNP.lungonly	1
 878	Supercontig_1.5	460000	470000	PopA.SNP.lungonly_curated	0
-878	Supercontig_1.5	460000	470000	repeats	2
+878	Supercontig_1.5	460000	470000	repeats	1
 879	Supercontig_1.5	470000	480000	Genes	8
 879	Supercontig_1.5	470000	480000	PopA.INDEL.lungonly	3
 879	Supercontig_1.5	470000	480000	PopA.INDEL.lungonly_curated	0
@@ -5338,7 +5338,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 889	Supercontig_1.5	570000	580000	PopA.INDEL.lungonly_curated	3
 889	Supercontig_1.5	570000	580000	PopA.SNP.lungonly	7
 889	Supercontig_1.5	570000	580000	PopA.SNP.lungonly_curated	2
-889	Supercontig_1.5	570000	580000	repeats	4
+889	Supercontig_1.5	570000	580000	repeats	1
 890	Supercontig_1.5	580000	590000	Genes	6
 890	Supercontig_1.5	580000	590000	PopA.INDEL.lungonly	0
 890	Supercontig_1.5	580000	590000	PopA.INDEL.lungonly_curated	0
@@ -5440,7 +5440,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 906	Supercontig_1.5	740000	750000	PopA.INDEL.lungonly_curated	0
 906	Supercontig_1.5	740000	750000	PopA.SNP.lungonly	0
 906	Supercontig_1.5	740000	750000	PopA.SNP.lungonly_curated	0
-906	Supercontig_1.5	740000	750000	repeats	1
+906	Supercontig_1.5	740000	750000	repeats	0
 907	Supercontig_1.5	750000	760000	Genes	7
 907	Supercontig_1.5	750000	760000	PopA.INDEL.lungonly	0
 907	Supercontig_1.5	750000	760000	PopA.INDEL.lungonly_curated	0
@@ -5536,7 +5536,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 922	Supercontig_1.5	900000	910000	PopA.INDEL.lungonly_curated	0
 922	Supercontig_1.5	900000	910000	PopA.SNP.lungonly	0
 922	Supercontig_1.5	900000	910000	PopA.SNP.lungonly_curated	0
-922	Supercontig_1.5	900000	910000	repeats	2
+922	Supercontig_1.5	900000	910000	repeats	0
 923	Supercontig_1.5	910000	920000	Genes	8
 923	Supercontig_1.5	910000	920000	PopA.INDEL.lungonly	0
 923	Supercontig_1.5	910000	920000	PopA.INDEL.lungonly_curated	0
@@ -5740,13 +5740,13 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 956	Supercontig_1.5	1240000	1250000	PopA.INDEL.lungonly_curated	0
 956	Supercontig_1.5	1240000	1250000	PopA.SNP.lungonly	1
 956	Supercontig_1.5	1240000	1250000	PopA.SNP.lungonly_curated	1
-956	Supercontig_1.5	1240000	1250000	repeats	2
+956	Supercontig_1.5	1240000	1250000	repeats	1
 957	Supercontig_1.5	1250000	1260000	Genes	4
 957	Supercontig_1.5	1250000	1260000	PopA.INDEL.lungonly	1
 957	Supercontig_1.5	1250000	1260000	PopA.INDEL.lungonly_curated	1
 957	Supercontig_1.5	1250000	1260000	PopA.SNP.lungonly	0
 957	Supercontig_1.5	1250000	1260000	PopA.SNP.lungonly_curated	0
-957	Supercontig_1.5	1250000	1260000	repeats	1
+957	Supercontig_1.5	1250000	1260000	repeats	0
 958	Supercontig_1.5	1260000	1270000	Genes	4
 958	Supercontig_1.5	1260000	1270000	PopA.INDEL.lungonly	0
 958	Supercontig_1.5	1260000	1270000	PopA.INDEL.lungonly_curated	0
@@ -5968,7 +5968,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 994	Supercontig_1.6	160000	170000	PopA.INDEL.lungonly_curated	0
 994	Supercontig_1.6	160000	170000	PopA.SNP.lungonly	0
 994	Supercontig_1.6	160000	170000	PopA.SNP.lungonly_curated	0
-994	Supercontig_1.6	160000	170000	repeats	2
+994	Supercontig_1.6	160000	170000	repeats	0
 995	Supercontig_1.6	170000	180000	Genes	5
 995	Supercontig_1.6	170000	180000	PopA.INDEL.lungonly	4
 995	Supercontig_1.6	170000	180000	PopA.INDEL.lungonly_curated	3
@@ -5980,7 +5980,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 996	Supercontig_1.6	180000	190000	PopA.INDEL.lungonly_curated	1
 996	Supercontig_1.6	180000	190000	PopA.SNP.lungonly	2
 996	Supercontig_1.6	180000	190000	PopA.SNP.lungonly_curated	0
-996	Supercontig_1.6	180000	190000	repeats	2
+996	Supercontig_1.6	180000	190000	repeats	0
 997	Supercontig_1.6	190000	200000	Genes	6
 997	Supercontig_1.6	190000	200000	PopA.INDEL.lungonly	10
 997	Supercontig_1.6	190000	200000	PopA.INDEL.lungonly_curated	2
@@ -6010,7 +6010,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1001	Supercontig_1.6	230000	240000	PopA.INDEL.lungonly_curated	0
 1001	Supercontig_1.6	230000	240000	PopA.SNP.lungonly	0
 1001	Supercontig_1.6	230000	240000	PopA.SNP.lungonly_curated	0
-1001	Supercontig_1.6	230000	240000	repeats	1
+1001	Supercontig_1.6	230000	240000	repeats	0
 1002	Supercontig_1.6	240000	250000	Genes	8
 1002	Supercontig_1.6	240000	250000	PopA.INDEL.lungonly	0
 1002	Supercontig_1.6	240000	250000	PopA.INDEL.lungonly_curated	0
@@ -6076,7 +6076,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1012	Supercontig_1.6	340000	350000	PopA.INDEL.lungonly_curated	2
 1012	Supercontig_1.6	340000	350000	PopA.SNP.lungonly	0
 1012	Supercontig_1.6	340000	350000	PopA.SNP.lungonly_curated	0
-1012	Supercontig_1.6	340000	350000	repeats	1
+1012	Supercontig_1.6	340000	350000	repeats	0
 1013	Supercontig_1.6	350000	360000	Genes	7
 1013	Supercontig_1.6	350000	360000	PopA.INDEL.lungonly	1
 1013	Supercontig_1.6	350000	360000	PopA.INDEL.lungonly_curated	0
@@ -6142,7 +6142,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1023	Supercontig_1.6	450000	460000	PopA.INDEL.lungonly_curated	0
 1023	Supercontig_1.6	450000	460000	PopA.SNP.lungonly	0
 1023	Supercontig_1.6	450000	460000	PopA.SNP.lungonly_curated	0
-1023	Supercontig_1.6	450000	460000	repeats	2
+1023	Supercontig_1.6	450000	460000	repeats	1
 1024	Supercontig_1.6	460000	470000	Genes	4
 1024	Supercontig_1.6	460000	470000	PopA.INDEL.lungonly	0
 1024	Supercontig_1.6	460000	470000	PopA.INDEL.lungonly_curated	0
@@ -6292,19 +6292,19 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1048	Supercontig_1.6	700000	710000	PopA.INDEL.lungonly_curated	0
 1048	Supercontig_1.6	700000	710000	PopA.SNP.lungonly	0
 1048	Supercontig_1.6	700000	710000	PopA.SNP.lungonly_curated	0
-1048	Supercontig_1.6	700000	710000	repeats	2
+1048	Supercontig_1.6	700000	710000	repeats	0
 1049	Supercontig_1.6	710000	720000	Genes	5
 1049	Supercontig_1.6	710000	720000	PopA.INDEL.lungonly	1
 1049	Supercontig_1.6	710000	720000	PopA.INDEL.lungonly_curated	1
 1049	Supercontig_1.6	710000	720000	PopA.SNP.lungonly	0
 1049	Supercontig_1.6	710000	720000	PopA.SNP.lungonly_curated	0
-1049	Supercontig_1.6	710000	720000	repeats	1
+1049	Supercontig_1.6	710000	720000	repeats	0
 1050	Supercontig_1.6	720000	730000	Genes	4
 1050	Supercontig_1.6	720000	730000	PopA.INDEL.lungonly	1
 1050	Supercontig_1.6	720000	730000	PopA.INDEL.lungonly_curated	0
 1050	Supercontig_1.6	720000	730000	PopA.SNP.lungonly	0
 1050	Supercontig_1.6	720000	730000	PopA.SNP.lungonly_curated	0
-1050	Supercontig_1.6	720000	730000	repeats	2
+1050	Supercontig_1.6	720000	730000	repeats	0
 1051	Supercontig_1.6	730000	740000	Genes	6
 1051	Supercontig_1.6	730000	740000	PopA.INDEL.lungonly	2
 1051	Supercontig_1.6	730000	740000	PopA.INDEL.lungonly_curated	0
@@ -6334,7 +6334,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1055	Supercontig_1.6	770000	780000	PopA.INDEL.lungonly_curated	0
 1055	Supercontig_1.6	770000	780000	PopA.SNP.lungonly	2
 1055	Supercontig_1.6	770000	780000	PopA.SNP.lungonly_curated	1
-1055	Supercontig_1.6	770000	780000	repeats	1
+1055	Supercontig_1.6	770000	780000	repeats	0
 1056	Supercontig_1.6	780000	790000	Genes	7
 1056	Supercontig_1.6	780000	790000	PopA.INDEL.lungonly	1
 1056	Supercontig_1.6	780000	790000	PopA.INDEL.lungonly_curated	0
@@ -6388,7 +6388,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1064	Supercontig_1.7	40000	50000	PopA.INDEL.lungonly_curated	2
 1064	Supercontig_1.7	40000	50000	PopA.SNP.lungonly	2
 1064	Supercontig_1.7	40000	50000	PopA.SNP.lungonly_curated	0
-1064	Supercontig_1.7	40000	50000	repeats	2
+1064	Supercontig_1.7	40000	50000	repeats	0
 1065	Supercontig_1.7	50000	60000	Genes	5
 1065	Supercontig_1.7	50000	60000	PopA.INDEL.lungonly	8
 1065	Supercontig_1.7	50000	60000	PopA.INDEL.lungonly_curated	0
@@ -6466,7 +6466,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1077	Supercontig_1.7	170000	180000	PopA.INDEL.lungonly_curated	0
 1077	Supercontig_1.7	170000	180000	PopA.SNP.lungonly	1
 1077	Supercontig_1.7	170000	180000	PopA.SNP.lungonly_curated	1
-1077	Supercontig_1.7	170000	180000	repeats	3
+1077	Supercontig_1.7	170000	180000	repeats	1
 1078	Supercontig_1.7	180000	190000	Genes	5
 1078	Supercontig_1.7	180000	190000	PopA.INDEL.lungonly	1
 1078	Supercontig_1.7	180000	190000	PopA.INDEL.lungonly_curated	0
@@ -6490,7 +6490,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1081	Supercontig_1.7	210000	220000	PopA.INDEL.lungonly_curated	2
 1081	Supercontig_1.7	210000	220000	PopA.SNP.lungonly	0
 1081	Supercontig_1.7	210000	220000	PopA.SNP.lungonly_curated	0
-1081	Supercontig_1.7	210000	220000	repeats	1
+1081	Supercontig_1.7	210000	220000	repeats	0
 1082	Supercontig_1.7	220000	230000	Genes	5
 1082	Supercontig_1.7	220000	230000	PopA.INDEL.lungonly	12
 1082	Supercontig_1.7	220000	230000	PopA.INDEL.lungonly_curated	2
@@ -6520,7 +6520,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1086	Supercontig_1.7	260000	270000	PopA.INDEL.lungonly_curated	0
 1086	Supercontig_1.7	260000	270000	PopA.SNP.lungonly	1
 1086	Supercontig_1.7	260000	270000	PopA.SNP.lungonly_curated	1
-1086	Supercontig_1.7	260000	270000	repeats	1
+1086	Supercontig_1.7	260000	270000	repeats	0
 1087	Supercontig_1.7	270000	280000	Genes	7
 1087	Supercontig_1.7	270000	280000	PopA.INDEL.lungonly	2
 1087	Supercontig_1.7	270000	280000	PopA.INDEL.lungonly_curated	0
@@ -6550,7 +6550,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1091	Supercontig_1.7	310000	320000	PopA.INDEL.lungonly_curated	1
 1091	Supercontig_1.7	310000	320000	PopA.SNP.lungonly	2
 1091	Supercontig_1.7	310000	320000	PopA.SNP.lungonly_curated	1
-1091	Supercontig_1.7	310000	320000	repeats	2
+1091	Supercontig_1.7	310000	320000	repeats	1
 1092	Supercontig_1.7	320000	330000	Genes	5
 1092	Supercontig_1.7	320000	330000	PopA.INDEL.lungonly	1
 1092	Supercontig_1.7	320000	330000	PopA.INDEL.lungonly_curated	0
@@ -6616,13 +6616,13 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1102	Supercontig_1.7	420000	430000	PopA.INDEL.lungonly_curated	3
 1102	Supercontig_1.7	420000	430000	PopA.SNP.lungonly	1
 1102	Supercontig_1.7	420000	430000	PopA.SNP.lungonly_curated	0
-1102	Supercontig_1.7	420000	430000	repeats	1
+1102	Supercontig_1.7	420000	430000	repeats	0
 1103	Supercontig_1.7	430000	440000	Genes	5
 1103	Supercontig_1.7	430000	440000	PopA.INDEL.lungonly	1
 1103	Supercontig_1.7	430000	440000	PopA.INDEL.lungonly_curated	1
 1103	Supercontig_1.7	430000	440000	PopA.SNP.lungonly	0
 1103	Supercontig_1.7	430000	440000	PopA.SNP.lungonly_curated	0
-1103	Supercontig_1.7	430000	440000	repeats	1
+1103	Supercontig_1.7	430000	440000	repeats	0
 1104	Supercontig_1.7	440000	450000	Genes	6
 1104	Supercontig_1.7	440000	450000	PopA.INDEL.lungonly	7
 1104	Supercontig_1.7	440000	450000	PopA.INDEL.lungonly_curated	4
@@ -6640,7 +6640,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1106	Supercontig_1.7	460000	470000	PopA.INDEL.lungonly_curated	0
 1106	Supercontig_1.7	460000	470000	PopA.SNP.lungonly	3
 1106	Supercontig_1.7	460000	470000	PopA.SNP.lungonly_curated	1
-1106	Supercontig_1.7	460000	470000	repeats	1
+1106	Supercontig_1.7	460000	470000	repeats	0
 1107	Supercontig_1.7	470000	480000	Genes	4
 1107	Supercontig_1.7	470000	480000	PopA.INDEL.lungonly	0
 1107	Supercontig_1.7	470000	480000	PopA.INDEL.lungonly_curated	0
@@ -6652,13 +6652,13 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1108	Supercontig_1.7	480000	490000	PopA.INDEL.lungonly_curated	1
 1108	Supercontig_1.7	480000	490000	PopA.SNP.lungonly	1
 1108	Supercontig_1.7	480000	490000	PopA.SNP.lungonly_curated	0
-1108	Supercontig_1.7	480000	490000	repeats	1
+1108	Supercontig_1.7	480000	490000	repeats	0
 1109	Supercontig_1.7	490000	500000	Genes	6
 1109	Supercontig_1.7	490000	500000	PopA.INDEL.lungonly	5
 1109	Supercontig_1.7	490000	500000	PopA.INDEL.lungonly_curated	0
 1109	Supercontig_1.7	490000	500000	PopA.SNP.lungonly	1
 1109	Supercontig_1.7	490000	500000	PopA.SNP.lungonly_curated	0
-1109	Supercontig_1.7	490000	500000	repeats	1
+1109	Supercontig_1.7	490000	500000	repeats	0
 1110	Supercontig_1.7	500000	510000	Genes	5
 1110	Supercontig_1.7	500000	510000	PopA.INDEL.lungonly	12
 1110	Supercontig_1.7	500000	510000	PopA.INDEL.lungonly_curated	3
@@ -6898,7 +6898,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1149	Supercontig_1.8	110000	120000	PopA.INDEL.lungonly_curated	0
 1149	Supercontig_1.8	110000	120000	PopA.SNP.lungonly	0
 1149	Supercontig_1.8	110000	120000	PopA.SNP.lungonly_curated	0
-1149	Supercontig_1.8	110000	120000	repeats	2
+1149	Supercontig_1.8	110000	120000	repeats	1
 1150	Supercontig_1.8	120000	130000	Genes	5
 1150	Supercontig_1.8	120000	130000	PopA.INDEL.lungonly	10
 1150	Supercontig_1.8	120000	130000	PopA.INDEL.lungonly_curated	2
@@ -6916,7 +6916,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1152	Supercontig_1.8	140000	150000	PopA.INDEL.lungonly_curated	0
 1152	Supercontig_1.8	140000	150000	PopA.SNP.lungonly	0
 1152	Supercontig_1.8	140000	150000	PopA.SNP.lungonly_curated	0
-1152	Supercontig_1.8	140000	150000	repeats	4
+1152	Supercontig_1.8	140000	150000	repeats	3
 1153	Supercontig_1.8	150000	160000	Genes	8
 1153	Supercontig_1.8	150000	160000	PopA.INDEL.lungonly	0
 1153	Supercontig_1.8	150000	160000	PopA.INDEL.lungonly_curated	0
@@ -6946,7 +6946,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1157	Supercontig_1.8	190000	200000	PopA.INDEL.lungonly_curated	0
 1157	Supercontig_1.8	190000	200000	PopA.SNP.lungonly	0
 1157	Supercontig_1.8	190000	200000	PopA.SNP.lungonly_curated	0
-1157	Supercontig_1.8	190000	200000	repeats	1
+1157	Supercontig_1.8	190000	200000	repeats	0
 1158	Supercontig_1.8	200000	210000	Genes	4
 1158	Supercontig_1.8	200000	210000	PopA.INDEL.lungonly	6
 1158	Supercontig_1.8	200000	210000	PopA.INDEL.lungonly_curated	3
@@ -7012,7 +7012,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1168	Supercontig_1.8	300000	310000	PopA.INDEL.lungonly_curated	0
 1168	Supercontig_1.8	300000	310000	PopA.SNP.lungonly	0
 1168	Supercontig_1.8	300000	310000	PopA.SNP.lungonly_curated	0
-1168	Supercontig_1.8	300000	310000	repeats	1
+1168	Supercontig_1.8	300000	310000	repeats	0
 1169	Supercontig_1.8	310000	320000	Genes	5
 1169	Supercontig_1.8	310000	320000	PopA.INDEL.lungonly	10
 1169	Supercontig_1.8	310000	320000	PopA.INDEL.lungonly_curated	6
@@ -7168,7 +7168,7 @@ Window	Chr	Chr_start	Chr_end	Track	Density
 1194	Supercontig_1.8	560000	570000	PopA.INDEL.lungonly_curated	0
 1194	Supercontig_1.8	560000	570000	PopA.SNP.lungonly	0
 1194	Supercontig_1.8	560000	570000	PopA.SNP.lungonly_curated	0
-1194	Supercontig_1.8	560000	570000	repeats	1
+1194	Supercontig_1.8	560000	570000	repeats	0
 1195	Supercontig_1.8	570000	580000	Genes	6
 1195	Supercontig_1.8	570000	580000	PopA.INDEL.lungonly	0
 1195	Supercontig_1.8	570000	580000	PopA.INDEL.lungonly_curated	0
