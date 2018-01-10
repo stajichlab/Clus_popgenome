@@ -35,7 +35,6 @@ ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chromosome),
 pdffile= 'plots/Clus_density_10kb.pdf'
 pdf(pdffile,width=12,height=5)
 Title = "Feature density"
-df <- read.table(infile,header=T,sep="\t")
 df$Chromosome <- df$Chr
 df$Track.order = factor(df$Track,levels = c("Genes",
                                             "PopA.SNP.lungonly_curated",
@@ -45,7 +44,7 @@ df$Track.order = factor(df$Track,levels = c("Genes",
                         "SNPs",
                         "INDELs",
                         "Repeats"))
-
+df <- df[complete.cases(df),]
 ggplot(df, aes(Window, Density)) + geom_line(aes(color=Chromosome),
                                               alpha=1/2,size=0.5) +
     facet_wrap(~Track.order, ncol=1,scales="free_y")+
@@ -92,7 +91,6 @@ ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chromosome),
 pdffile= 'plots/Clus_density_50kb.pdf'
 pdf(pdffile,width=12,height=5)
 Title = "Feature density"
-df <- read.table(infile,header=T,sep="\t")
 df$Chromosome <- df$Chr
 df$Track.order = factor(df$Track,levels = c("Genes",
                                             "PopA.SNP.lungonly_curated",
@@ -101,7 +99,7 @@ df$Track.order = factor(df$Track,levels = c("Genes",
                                                                  "SNPs",
                                                                  "INDELs",
                                                                  "Repeats"))
-
+df <- df[complete.cases(df),]
 ggplot(df, aes(Window, Density)) + geom_line(aes(color=Chromosome),
                                               alpha=1/2,size=0.5) +
     facet_wrap(~Track.order, ncol=1,scales="free_y") +
@@ -149,7 +147,6 @@ ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chromosome),
 pdffile= 'plots/Clus_density_20kb.pdf'
 pdf(pdffile,width=12,height=5)
 Title = "Feature density"
-df <- read.table(infile,header=T,sep="\t")
 df$Chromosome <- df$Chr
 
 df$Track.order = factor(df$Track,levels = c("Genes",
@@ -159,7 +156,8 @@ df$Track.order = factor(df$Track,levels = c("Genes",
                                                                  "SNPs",
                                                                  "INDELs",
                                                                  "Repeats"))
-
+df <- df[complete.cases(df),]
+head(df)
 ggplot(df, aes(Window, Density)) + geom_line(aes(color=Chromosome),
                                               alpha=1/2,size=0.5) +
     facet_wrap(~Track.order, ncol=1,scales="free_y") +
