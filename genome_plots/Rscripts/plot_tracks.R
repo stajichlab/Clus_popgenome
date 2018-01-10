@@ -9,7 +9,8 @@ pdffile= 'plots/Clus_density_10kb_all.pdf'
 pdf(pdffile,width=12,height=6)
 Title = "Feature density"
 df$Chromosome <- df$Chr
-df$Track.order = factor(df$Track,levels = c("Genes","PopA.SNP.lungonly",
+df$Track.order = factor(df$Track,levels = c("Genes",
+                                            "PopA.SNP.lungonly",
                                             "PopA.SNP.lungonly_curated",
                                             "PopA.INDEL.lungonly",
                                             "PopA.INDEL.lungonly_curated",
@@ -34,14 +35,16 @@ ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chromosome),
 pdffile= 'plots/Clus_density_10kb.pdf'
 pdf(pdffile,width=12,height=5)
 Title = "Feature density"
+df <- read.table(infile,header=T,sep="\t")
 df$Chromosome <- df$Chr
 df$Track.order = factor(df$Track,levels = c("Genes",
                                             "PopA.SNP.lungonly_curated",
                                             "PopA.INDEL.lungonly_curated",
-                                            "repeats"), labels=c("Genes",
-                                                                 "SNPs",
-                                                                 "INDELs",
-                                                                 "Repeats"))
+                                            "repeats"), 
+			labels=c("Genes",
+                        "SNPs",
+                        "INDELs",
+                        "Repeats"))
 
 ggplot(df, aes(Window, Density)) + geom_line(aes(color=Chromosome),
                                               alpha=1/2,size=0.5) +
@@ -89,7 +92,8 @@ ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chromosome),
 pdffile= 'plots/Clus_density_50kb.pdf'
 pdf(pdffile,width=12,height=5)
 Title = "Feature density"
-
+df <- read.table(infile,header=T,sep="\t")
+df$Chromosome <- df$Chr
 df$Track.order = factor(df$Track,levels = c("Genes",
                                             "PopA.SNP.lungonly_curated",
                                             "PopA.INDEL.lungonly_curated",
@@ -145,6 +149,8 @@ ggplot(df, aes(Window, Density)) + geom_point(aes(color=Chromosome),
 pdffile= 'plots/Clus_density_20kb.pdf'
 pdf(pdffile,width=12,height=5)
 Title = "Feature density"
+df <- read.table(infile,header=T,sep="\t")
+df$Chromosome <- df$Chr
 
 df$Track.order = factor(df$Track,levels = c("Genes",
                                             "PopA.SNP.lungonly_curated",
