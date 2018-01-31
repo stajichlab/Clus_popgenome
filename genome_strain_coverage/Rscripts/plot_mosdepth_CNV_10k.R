@@ -1,7 +1,7 @@
 library(ggplot2)
 library(RColorBrewer)
 #library(colorRamps)
-library(extrafont) # loaded Arial on mac with instructions here https://github.com/wch/extrafont
+#library(extrafont) # loaded Arial on mac with instructions here https://github.com/wch/extrafont
 #Clus
 
 bedwindows = read.table("coverage/mosdepth.10000bp.gg.tab.gz",header=F)
@@ -139,7 +139,6 @@ for (strain in unique(d$Strain) ) {
                        limits = c(0,3)) + theme_classic() +
     guides(fill = guide_legend(keywidth = 3, keyheight = 1))
  ggsave(sprintf("plots/StrainPlot_5kb.%s.pdf",strain),p,width=7,height=2.5)
- p
 }
 
 for (n in chrlist ) {
