@@ -3,7 +3,7 @@
 from os import listdir
 import os.path 
 import pybedtools
-import csv, re
+import csv, re, gzip
 from pybedtools import BedTool
 from itertools import chain
 
@@ -38,7 +38,7 @@ indir    = "tracks/bed"
 tracks = "tracks/alltracks.bin%d.tab"%(windowsize)
 binfile = "tracks/binfile.%d.bed"%(windowsize)
 
-genomefai = "genome/Clus.fasta.fai"
+genomelens = "genome/Clus.lens"
 bedfiles = []
 
 for f in listdir(indir):
@@ -51,7 +51,7 @@ counter = 0
 
 if not os.path.isfile(binfile):
     with open(binfile,"w") as binout:
-        with open(genomefai,"r") as fh:
+        with open(genomelens,"r") as fh:
             reader = csv.reader(fh, delimiter="\t")
             bedwrite = csv.writer(binout, delimiter="\t",
                                   quoting=csv.QUOTE_MINIMAL)
