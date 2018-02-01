@@ -1,0 +1,34 @@
+IQ-TREE multicore version 1.5.5 for Linux 64-bit built Jun  2 2017
+Copyright (c) 2011-2017 by Bui Quang Minh, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, and Arndt von Haeseler.
+
+Host:    owl (SSSE3, 58 GB RAM)
+Command: iqtree-omp -nt 2 -s indel_matrix.phy -m JC2+ASC
+Seed:    404192 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan  8 14:01:31 2018
+Kernel:  SSE2 - 2 threads (16 CPU cores detected)
+
+Reading alignment file indel_matrix.phy ... Phylip format detected
+ERROR: Sequence REF contains too many characters (1081)
+Sequence U02 contains too many characters (536)
+Sequence U03 contains too many characters (536)
+Sequence U04 contains too many characters (536)
+Sequence U05 contains too many characters (536)
+Sequence U06 contains too many characters (536)
+Sequence U07 contains too many characters (536)
+Sequence U08 contains too many characters (536)
+Sequence L09 contains too many characters (536)
+Sequence L10 contains too many characters (536)
+Sequence L11 contains too many characters (536)
+Sequence L12 contains too many characters (536)
+Sequence L13 contains too many characters (536)
+Sequence L14 contains too many characters (536)
+Sequence L15 contains too many characters (536)
+Sequence L16 contains too many characters (536)
+Sequence L17 contains too many characters (536)
+Sequence S18 contains too many characters (536)
+Sequence S19 contains too many characters (536)
+Sequence S20 contains too many characters (536)
+Sequence S21 contains too many characters (536)
+Sequence ctl1.AL1B contains too many characters (536)
+
